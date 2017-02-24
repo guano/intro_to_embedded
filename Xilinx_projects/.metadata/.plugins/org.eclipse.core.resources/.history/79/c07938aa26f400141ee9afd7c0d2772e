@@ -1,0 +1,49 @@
+/*
+ * buttons.c
+ *
+ *  Created on: May 5, 2015
+ *      Author: tcowley0
+ */
+
+#include "buttons.h"
+#include "xparameters.h"		//has the addresses of the GPIO blocks
+#include <stdio.h>
+//#include <stdint.h>
+//#include <stdlib.h>
+
+
+//The address of the tri-state driver is [base address] + 0x04
+#define GPIO_BUTTONS_TRI XPAR_GPIO_PUSH_BUTTONS_BASEADDR + 0x04
+#define TRI_READ 0xFF
+
+/*
+ Definitions for peripheral GPIO_PUSH_BUTTONS
+#define XPAR_GPIO_PUSH_BUTTONS_BASEADDR 0x41240000 *******
+#define XPAR_GPIO_PUSH_BUTTONS_HIGHADDR 0x4124FFFF
+#define XPAR_GPIO_PUSH_BUTTONS_DEVICE_ID 3
+#define XPAR_GPIO_PUSH_BUTTONS_INTERRUPT_PRESENT 1
+#define XPAR_GPIO_PUSH_BUTTONS_IS_DUAL 0
+ */
+
+
+//this, quite simply, returns the value of the buttons.
+uint32_t read_buttons_gpio_register() {
+	uint32_t *ptr = (uint32_t *) XPAR_GPIO_PUSH_BUTTONS_BASEADDR;
+	return *ptr;
+}
+
+//this is a dumb function. I may need to change it.
+void write_register(uint32_t *ptr, char value) {
+	*ptr = value;
+}
+
+//get the buttons ready for reading.
+void init_buttons() {
+	//inits the buttons TRI register for reading.
+	write_register(GPIO_BUTTONS_TRI, TRI_READ);
+}
+
+//returns the value of the buttons. Should this really be 32 bit?
+int32_t read_buttons() {
+	return read_buttons_gpio_register();
+}

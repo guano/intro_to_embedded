@@ -1,0 +1,40 @@
+/*
+ * buttons.h
+ *
+ *  Created on: May 5, 2015
+ *      Author: tcowley0
+ */
+
+#ifndef BUTTONS_H_
+#define BUTTONS_H_
+
+#include <stdint.h>
+
+#define TRI_STATE_OFFSET 0x04
+#define TRI_STATE_READ 0xFF
+
+//reads the buttons register
+uint32_t read_buttons_gpio_register(int32_t offset);
+
+//writes to a buttons register
+//really only useful to write to the tri-state
+void write_buttons_register(int32_t offset, uint32_t value);
+
+//call me first!
+void init_buttons();
+
+//get the value of the buttons
+uint32_t read_buttons();
+
+//displays which button you pushed on the display until all of them are pushed, then returns
+void buttons_runTest();
+
+
+void disp_button(char blank, char button);
+uint16_t get_color(char button);
+void disp_button_0(char blank);
+void disp_button_1(char blank);
+void disp_button_2(char blank);
+void disp_button_3(char blank);
+
+#endif /* BUTTONS_H_ */

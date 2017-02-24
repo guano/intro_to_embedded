@@ -1,0 +1,29 @@
+/*
+ * buttons.h
+ *
+ *  Created on: May 5, 2015
+ *      Author: tcowley0
+ */
+
+#ifndef BUTTONS_H_
+#define BUTTONS_H_
+
+#define TRI_STATE_OFFSET 0x04
+#define TRI_STATE_READ 0xFF
+
+//reads the buttons register
+uint32_t read_buttons_gpio_register(int32_t offset);
+
+//writes to a buttons register
+//really only useful to write to the tri-state
+void write_buttons_register(int32_t offset, uint32_t value);
+
+//call me first!
+void init_buttons();
+
+//get the value of the buttons
+uint32_t read_buttons();
+
+
+
+#endif /* BUTTONS_H_ */

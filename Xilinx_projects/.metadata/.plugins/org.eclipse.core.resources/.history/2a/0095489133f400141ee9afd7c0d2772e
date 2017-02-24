@@ -1,0 +1,31 @@
+//Read from the switches and buttons
+
+#include <stdio.h>				//standard input/output
+//#include "xparameters.h"		//has the addresses of the GPIO blocks
+//#include "xil_io.h"				//low-level functions for accessing registers
+//#include "supportFiles/leds.h"
+
+#include "buttons.h"
+
+
+int main() {
+	printf("hello world!\n");
+	//for(int i = 0; i < 4; i++){
+	//	leds_runTest();
+	//}
+	init_buttons();
+
+
+	char buttons_value = 0x00;
+	char temp = 0x00;
+
+	while(1) {
+		temp = read_buttons();
+		if(temp != buttons_value) {
+			buttons_value = temp;
+			printf("Buttons Value Changed!: %d \n",buttons_value);
+		}
+	}
+
+	return 0;
+}

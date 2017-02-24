@@ -1,0 +1,31 @@
+/*
+ * clockMain.c
+ *
+ *  Created on: May 19, 2015
+ *      Author: Taylor Cowley
+ */
+
+#include "clockDisplay.h"
+#include "clockControl.h"
+#include "supportFiles/utils.h"
+#include <stdio.h>
+#include "intervalTimer.h"
+
+int main() {
+	printf("starting test program 04\n\r");
+
+	//clockDisplay_init();
+	//clockDisplay_runTest();
+	intervalTimer_initAll();
+	intervalTimer_resetAll();
+
+	while(1){
+
+
+
+		clockControl_tick();
+		utils_msDelay(1);
+	}
+	printf("ending test program 04\n\r");
+	return 0;
+}

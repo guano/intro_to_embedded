@@ -1,0 +1,139 @@
+/*
+ * buttons.c
+ *
+ *  Created on: May 5, 2015
+ *      Author: tcowley0
+ */
+
+
+#include "buttons.h"
+#include <stdio.h>
+#include <stdint.h>
+#include "xparameters.h"			//has the addresses of the GPIO blocks
+#include "supportFiles/display.h"	//to output to the screen
+
+
+
+
+//this, quite simply, returns the value of the buttons. 0 for value, 4 for tri-state
+uint32_t read_buttons_gpio_register(int32_t offset) {
+	uint32_t *ptr = (uint32_t *) XPAR_GPIO_PUSH_BUTTONS_BASEADDR + offset;
+	return *ptr;
+}
+
+//writes a value to buttons' base address + the offset. 4 to set tri_state
+void write_buttons_register(int32_t offset, uint32_t value) {
+	uint32_t *ptr = (uint32_t *) XPAR_GPIO_PUSH_BUTTONS_BASEADDR + offset;
+	*ptr = value;
+}
+
+//get the buttons ready for reading.
+void init_buttons() {
+	//inits the buttons TRI register for reading.
+	write_buttons_register(TRI_STATE_OFFSET, TRI_STATE_READ);
+}
+
+//returns the value of the buttons. Should this really be 32 bit?
+uint32_t read_buttons() {
+	return read_buttons_gpio_register(0);
+}
+
+
+void buttons_runTest() {
+	display_init();						//init.
+	display_fillScreen(DISPLAY_BLACK);	//blank the screen.
+	//display_setCursor(0,0);				//upper left, seems to be necessary
+	//display_setTextColor(DISPLAY_WHITE);	//yeah white text
+	display_setTextSize(2);				//a good text size
+
+
+
+	init_buttons();
+	char buttons_value = 0x00;
+	char temp = 0x00;
+
+	while(1) {
+		temp = read_buttons();
+		if(temp != buttons_value) {
+			buttons_value = temp;
+			printf("Buttons Value Changed!: %d \n",buttons_value);
+
+			if(buttons_value & 0x01)	{disp_button(0,0);}
+			if(buttons_value & 0x02)	{disp_button(0,1);}
+			if(buttons_value & 0x04)	{disp_button(0,2);}
+			if(buttons_value & 0x08)	{disp_button(0,3);}
+
+		}
+	}
+}
+
+void disp_button_3(char blank) {
+	int h = display_height();
+	int w = display_width();
+
+	if(blank){
+		display_fillRect(0,0,w/4,h/2, DISPLAY_BLACK);
+	}else {
+		display_fillRect(0,0,w/4,h/2, DISPLAY_BLUE);
+		display_setCursor(0,w/8);
+		display_setTextColor(DISPLAY_WHITE);
+		display_println(" BTN3 ");
+	}
+}
+
+
+//this displays an arbitrary button on the screen
+void disp_button(char blank, char button) {
+	int h = display_height();
+	int w = display_width();
+
+	if(blank){
+		display_fillRect(w*(3-button)/4,  0,  w*(2-button)/4,  h/2, DISPLAY_BLACK);
+	}else {
+		display_fillRect(w*(3-button)/4,  0,  w*(2-button)/4,  h/2, get_color(button));
+		display_setCursor(w*2*(3-button)/8,   h/8);
+		display_setTextColor(DISPLAY_CYAN);
+		char[6] = " BTN5 ";
+		display_println(" BTN%d ",button);
+	}
+}
+
+
+//this is the color that should happen depending on which button is pushed.
+uint16_t get_color(char button) {
+	switch(button){
+	case 0:
+		return DISPLAY_YELLOW;
+		break;
+	case 1:
+		return DISPLAY_GREEN;
+		break;
+	case 2:
+		return DISPLAY_RED;
+		break;
+	case 3:
+		return DISPLAY_BLUE;
+		break;
+	default:
+		//this is an error
+		return DISPLAY_MAGENTA;
+		break;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

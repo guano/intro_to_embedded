@@ -1,0 +1,21 @@
+15:59:39 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab05/ticTacToeDisplay.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj5.3\Xilinx_projects_proj5.3\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab05/ticTacToeDisplay.d" -MT"src/lab05/ticTacToeDisplay.d" -o "src/lab05/ticTacToeDisplay.o" "../src/lab05/ticTacToeDisplay.c"
+'Finished building: ../src/lab05/ticTacToeDisplay.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HW3_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab05/buttons.o ./src/lab05/intervalTimer.o ./src/lab05/lab05timeTest.o ./src/lab05/minimax.o ./src/lab05/switches.o ./src/lab05/ticTacToeControl.o ./src/lab05/ticTacToeDisplay.o  ./src/main.o ./src/simon.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 170300	   3176	  36092	 209568	  332a0	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+
+15:59:40 Build Finished (took 780ms)
+

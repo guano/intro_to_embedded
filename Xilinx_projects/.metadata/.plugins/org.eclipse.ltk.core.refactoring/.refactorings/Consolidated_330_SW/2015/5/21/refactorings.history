@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Consolidated_330_SW/src/lab04/clockMain.c&apos; to &apos;clockMainTEST.c&apos;" description="Rename resource &apos;clockMain.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/lab04/clockMain.c" name="clockMainTEST.c" stamp="1432241776926" updateReferences="true"/>
+</session>

@@ -1,0 +1,1206 @@
+13:47:07 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+13:47:07 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+13:47:07 ERROR : Failed to generate BSP due to invalid mss path
+13:47:10 INFO  : BSP Project P/HW3_bsp has been successfully migrated.
+13:48:04 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+13:48:04 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+13:48:04 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+13:48:04 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+13:48:04 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+13:48:04 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+13:52:01 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:52:44 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:55:07 INFO  : FPGA configured successfully with bitstream "J:/EE330/Xilinx_projects/HWTest3_hw_platform/system.bit"
+14:00:10 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:00:10 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+14:00:10 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:00:10 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+14:00:24 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:00:24 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+14:00:24 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:01:17 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:02:02 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:02:08 INFO  : init_user is completed.
+14:02:09 INFO  : ps7_init is completed.
+14:02:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:02:28 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:05:29 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:05:29 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:05:29 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:05:49 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:06:05 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:06:14 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:06:16 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:06:17 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:06:17 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:06:23 INFO  : FPGA configured successfully with bitstream "J:/EE330/Xilinx_projects/HWTest3_hw_platform/system.bit"
+14:06:24 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:06:36 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:06:36 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:06:36 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:06:50 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:07:07 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:07:14 INFO  : init_user is completed.
+14:07:14 INFO  : ps7_init is completed.
+14:07:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:08:41 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:13:14 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:13:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:30:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:34:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:36:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:38:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:39:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:40:07 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:40:07 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:40:07 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:40:37 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:40:53 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:41:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:41:10 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+Unknown Error Occured
+    : J:/EE330/Xilinx_projects/Consolidated_330_SW/Debug/Consolidated_330_SW.elf
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+14:41:35 INFO  : FPGA configured successfully with bitstream "J:/EE330/Xilinx_projects/HWTest3_hw_platform/system.bit"
+14:43:06 INFO  : FPGA configured successfully with bitstream "J:/EE330/Xilinx_projects/HWTest3_hw_platform/system.bit"
+14:43:50 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:44:23 INFO  : FPGA configured successfully with bitstream "J:/EE330/Xilinx_projects/HWTest3_hw_platform/system.bit"
+14:45:15 INFO  : init_user is completed.
+14:45:15 INFO  : ps7_init is completed.
+14:45:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:49:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:51:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:53:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:58:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:04:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:06:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:07:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:21:40 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:53:10 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+17:53:10 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+17:53:10 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+17:53:10 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+17:53:10 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+17:53:10 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+ [Hsm 55-1430] Driver Name is empty
+17:53:10 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+17:53:10 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+17:53:10 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+17:53:10 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+17:53:10 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+18:53:21 INFO  : FPGA configured successfully with bitstream "J:/EE330/Xilinx_projects/HWTest3_hw_platform/system.bit"
+18:53:35 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+18:53:35 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+18:53:41 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+18:54:18 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+18:54:42 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+18:55:54 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+18:55:54 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+18:57:08 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+18:57:08 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+18:57:22 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+18:57:42 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+18:57:49 INFO  : init_user is completed.
+18:57:49 INFO  : ps7_init is completed.
+18:57:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:58:22 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+18:58:23 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+19:02:58 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+19:03:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:32:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:34:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:39:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:41:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:41:29 ERROR : Unexpected error while opening JTAG UART: 
+java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(TM.java:1027)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(JTAGUARTStreamsProxy.java:32)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.createStreamsProxy(RemoteProcess.java:164)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.<init>(RemoteProcess.java:65)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:91)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+19:49:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:01:51 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:01:51 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:01:51 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:01:51 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:01:51 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:01:51 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+ [Hsm 55-1430] Driver Name is empty
+12:01:51 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:01:51 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:01:51 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:01:51 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:01:51 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:02:51 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/tayEE330/Xilinx_projects/HWTest3_hw_platform/system.bit"
+12:03:27 INFO  : init_user is completed.
+12:03:27 INFO  : ps7_init is completed.
+12:03:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:04:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:04:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:05:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:05:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:05:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:06:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:16:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:18:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:25:38 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:06:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:06:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:10:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:12:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:12:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:15:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:15:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:17:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:17:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:17:35 ERROR : Port COM25 is already in use.
+15:17:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:19:20 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/tayEE330/Xilinx_projects/HWTest3_hw_platform/system.bit"
+15:19:56 INFO  : init_user is completed.
+15:19:56 INFO  : ps7_init is completed.
+15:19:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:21:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:21:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:22:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:23:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:23:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:23:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:24:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:24:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:26:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:27:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:31:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:31:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:32:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:32:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:34:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:34:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:35:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:35:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:35:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:35:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:37:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:38:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:38:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:39:00 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:39:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:39:03 ERROR : Port COM25 is already in use.
+15:39:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:39:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:40:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:41:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:41:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:43:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:46:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:46:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:46:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:46:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:46:48 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:46:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:47:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:48:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:48:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:48:49 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/tayEE330/Xilinx_projects/HWTest3_hw_platform/system.bit"
+15:49:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:51:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:52:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:53:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:57:12 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+15:57:12 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:386)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:297)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:245)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+15:57:25 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/tayEE330/Xilinx_projects/HWTest3_hw_platform/system.bit"
+15:57:35 INFO  : init_user is completed.
+15:57:35 INFO  : ps7_init is completed.
+15:57:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:58:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:58:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:26:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:27:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:28:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:40:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:41:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:42:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:43:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:44:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:45:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:46:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:46:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:51:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:53:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:56:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:57:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:01:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:02:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:03:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:04:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:05:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:12:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:13:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:14:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:15:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:15:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:16:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:16:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:17:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:17:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:17:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:17:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:18:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:18:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:19:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:20:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:22:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:23:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:57:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:57:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:10:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:18:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:19:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:22:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:23:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:23:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:23:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:53:02 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects/HWTest3_hw_platform/system.bit"
+12:53:36 INFO  : init_user is completed.
+12:53:41 INFO  : ps7_init is completed.
+12:53:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:54:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:55:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:56:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:56:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:56:16 ERROR : Port COM11 is already in use.
+12:56:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:50:05 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects/HWTest3_hw_platform/system.bit"
+15:50:27 INFO  : init_user is completed.
+15:50:38 INFO  : ps7_init is completed.
+15:50:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:00:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:03:54 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:45:27 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:45:27 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:45:27 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:45:27 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:45:27 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:45:27 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+ [Hsm 55-1430] Driver Name is empty
+12:45:27 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:45:27 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:45:27 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:45:27 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:45:27 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+14:56:04 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj3.1/HWTest3_hw_platform/system.bit"
+14:56:30 INFO  : init_user is completed.
+14:56:31 INFO  : ps7_init is completed.
+14:56:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:07:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:09:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:09:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:11:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:13:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:16:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:17:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:20:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:21:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:24:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:26:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:32:15 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:477)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+15:34:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:36:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:36:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:36:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:38:55 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+15:38:55 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+15:38:59 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+15:38:59 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+15:38:59 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+15:38:59 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+15:39:38 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+15:39:38 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+15:40:00 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+15:40:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:40:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:41:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:41:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:41:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:42:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:43:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:43:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:44:48 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:477)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+15:47:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:47:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:47:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:47:45 ERROR : Port COM29 is already in use.
+15:48:03 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj3.1/HWTest3_hw_platform/system.bit"
+15:48:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:49:30 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:49:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:51:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:51:31 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:51:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:53:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:54:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:54:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:54:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:55:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:55:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:56:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:57:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:59:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:01:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:02:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:02:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:02:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:02:43 ERROR : Port COM29 is already in use.
+16:02:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:03:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:04:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:19:37 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:43:50 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:43:50 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:43:50 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:43:50 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:43:50 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:43:50 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+ [Hsm 55-1430] Driver Name is empty
+12:43:50 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:43:50 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:43:50 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:43:50 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:43:50 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+13:27:03 ERROR : FPGA Configuration failed.Failed to download the bit file
+
+    Failed to verify DONE bit after configuring FPGA
+
+
+13:27:31 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects/HWTest3_hw_platform/system.bit"
+13:28:06 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:477)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+13:29:58 INFO  : init_user is completed.
+13:30:05 INFO  : ps7_init is completed.
+13:30:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:30:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:31:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:32:25 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects/HWTest3_hw_platform/system.bit"
+13:32:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:33:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:35:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:36:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:37:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:38:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:40:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:41:57 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:477)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+13:42:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:43:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:43:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:45:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:47:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:47:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:48:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:49:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:59:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:02:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:12:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:13:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:15:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:17:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:00:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:01:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:02:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:03:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:03:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:03:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:03:52 ERROR : Port COM29 is already in use.
+15:04:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:10:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:10:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:13:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:31:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:25:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:25:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:27:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:29:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:31:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:31:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:31:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:33:22 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:46:18 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects_lab4.1/HWTest3_hw_platform/system.bit"
+14:46:42 INFO  : init_user is completed.
+14:46:42 INFO  : ps7_init is completed.
+14:46:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:49:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:50:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:50:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:50:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:51:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:51:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:51:27 ERROR : Port COM21 is already in use.
+14:51:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:53:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:53:27 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:53:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:54:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:04:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:04:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:05:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:05:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:05:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:05:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:05:58 ERROR : Port COM21 is already in use.
+15:06:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:08:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:14:26 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:477)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+15:39:32 ERROR : Workspace location D:\Put_Your_Temp_Files_Here\Xilinx_projects_lab4.1 - Copy contains spaces. Please switch to a workspace without spaces in its path.
+15:40:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:41:21 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:44:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:45:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:47:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:48:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:50:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:51:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:51:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:52:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:53:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:53:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:53:27 ERROR : Port COM21 is already in use.
+15:54:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:54:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:56:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:57:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:57:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:57:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:57:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:57:59 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:58:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:58:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:59:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:59:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:59:08 ERROR : Port COM21 is already in use.
+15:59:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:00:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:02:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:14:43 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:16:11 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj/Xilinx_projects_lab4.2/HWTest3_hw_platform/system.bit"
+13:16:26 INFO  : init_user is completed.
+13:16:27 INFO  : ps7_init is completed.
+13:16:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:16:28 ERROR : No such port: COM21
+14:22:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:22:10 ERROR : No such port: COM21
+14:24:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:25:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:25:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:27:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:55:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:56:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:57:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:57:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:00:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:02:01 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:12:54 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects_lab5.1/Xilinx_projects_lab5.1/HWTest3_hw_platform/system.bit"
+13:14:24 INFO  : init_user is completed.
+13:14:25 INFO  : ps7_init is completed.
+13:14:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:15:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:33:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:32:53 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj5.2/Xilinx_projects/HWTest3_hw_platform/system.bit"
+15:33:12 INFO  : init_user is completed.
+15:33:14 INFO  : ps7_init is completed.
+15:33:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:34:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:35:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:36:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:37:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:38:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:39:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:43:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:58:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:04:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:04:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:06:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:07:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:07:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:08:08 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:08:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:09:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:10:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:11:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:38:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:39:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:43:39 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+16:43:39 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:386)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:297)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:245)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+16:43:52 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj5.2/Xilinx_projects/HWTest3_hw_platform/system.bit"
+16:44:06 INFO  : init_user is completed.
+16:44:06 INFO  : ps7_init is completed.
+16:44:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:45:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:46:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:48:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:49:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:49:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:49:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:52:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:54:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:56:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:58:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:01:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:02:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:04:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:05:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:05:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:06:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:06:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:07:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:12:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:29:04 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:31:57 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj5.3/Xilinx_projects_proj5.3/Xilinx_projects/HWTest3_hw_platform/system.bit"
+15:32:24 INFO  : init_user is completed.
+15:32:24 INFO  : ps7_init is completed.
+15:32:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:37:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:37:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:39:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:39:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:41:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:42:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:45:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:46:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:49:00 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

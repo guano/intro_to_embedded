@@ -1,0 +1,32 @@
+/*
+ * switches.c
+ *
+ *  Created on: May 5, 2015
+ *      Author: tcowley0
+ */
+
+
+#include "switches.h"
+#include "stdio.h"
+
+/*
+ Definitions for peripheral GPIO_PUSH_BUTTONS
+#define XPAR_GPIO_PUSH_BUTTONS_BASEADDR 0x41240000 *******
+#define XPAR_GPIO_PUSH_BUTTONS_HIGHADDR 0x4124FFFF
+#define XPAR_GPIO_PUSH_BUTTONS_DEVICE_ID 3
+#define XPAR_GPIO_PUSH_BUTTONS_INTERRUPT_PRESENT 1
+#define XPAR_GPIO_PUSH_BUTTONS_IS_DUAL 0
+
+
+/* Definitions for peripheral GPIO_SLIDE_SWITCHES
+#define XPAR_GPIO_SLIDE_SWITCHES_BASEADDR 0x41280000 *********
+#define XPAR_GPIO_SLIDE_SWITCHES_HIGHADDR 0x4128FFFF
+#define XPAR_GPIO_SLIDE_SWITCHES_DEVICE_ID 4
+#define XPAR_GPIO_SLIDE_SWITCHES_INTERRUPT_PRESENT 1
+#define XPAR_GPIO_SLIDE_SWITCHES_IS_DUAL 0
+ */
+
+int32_t buttons_readGpioRegister() {
+	uint32_t *ptr = (uint32_t *) XPAR_GPIO_SLIDE_SWITCHES_BASEADDR;
+	return *ptr;
+}
