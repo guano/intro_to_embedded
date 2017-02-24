@@ -1,0 +1,29 @@
+/*
+ * lab06test.c
+ *
+ *  Created on: Jun 4, 2015
+ *      Author: tcowley0
+ */
+#include "simonDisplay.h"
+#include "buttonHandler.h"
+#include "flashSequence.h"
+#include "verifySequence.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+	printf("Testing our stuff\n\r");
+	//simonDisplay_runTest(5);
+	//buttonHandler_runTest(20);
+	//flashSequence_runTest();
+	//verifySequence_runTest();
+	srand(40);
+
+	printf("A random number: %d", rand());
+
+
+
+
+	printf("End of test\n\r");
+}

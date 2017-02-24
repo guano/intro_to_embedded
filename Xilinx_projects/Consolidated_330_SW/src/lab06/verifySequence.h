@@ -1,7 +1,6 @@
 /* verifySequence.h
  *
- *  Created on: Oct 28, 2014
- *      Author: hutch
+ *      Author: Taylor Cowley
  */
 
 #ifndef VERIFYSEQUENCE_H_
@@ -16,7 +15,7 @@
 #include "globals.h"
 #include "buttons.h"
 
-#define VERIFYSEQUENCE_TIMEOUT_SPEED (GLOBALS_FLASH_SPEED / 5)
+#define VERIFYSEQUENCE_TIMEOUT_SPEED (GLOBALS_VERIFY_TIMEOUT_SPEED)
 
 enum verifySequence_st_t{
 	verifySequence_init_st,	//Init everything (like the screen)

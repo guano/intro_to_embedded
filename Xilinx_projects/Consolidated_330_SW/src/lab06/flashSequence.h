@@ -1,8 +1,7 @@
 /*
  * flashSequence.h
  *
- *  Created on: Oct 28, 2014
- *      Author: hutch
+ *      Author: Taylor Cowley
  */
 
 #ifndef FLASHSEQUENCE_H_
@@ -14,7 +13,7 @@
 #include "globals.h"
 
 
-#define FLASHSEQUENCE_BLINK_SPEED (GLOBALS_FLASH_SPEED / 10)
+#define FLASHSEQUENCE_BLINK_SPEED (GLOBALS_FLASH_SPEED)
 #define FLASHSEQUENCE_BLANK_SPEED (FLASHSEQUENCE_BLINK_SPEED / 3)
 
 enum flashSequence_st_t{

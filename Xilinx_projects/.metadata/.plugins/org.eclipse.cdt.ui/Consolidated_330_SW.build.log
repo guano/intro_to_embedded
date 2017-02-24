@@ -1,6 +1,21 @@
-09:21:06 **** Incremental Build of configuration Debug for project Consolidated_330_SW ****
+15:19:27 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
 make all 
-make: Nothing to be done for `all'.
+'Building file: ../src/lab06/globals.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.3\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/globals.d" -MT"src/lab06/globals.d" -o "src/lab06/globals.o" "../src/lab06/globals.c"
+'Finished building: ../src/lab06/globals.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HW3_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/intervalTimer.o ./src/lab06/simonControl.o ./src/lab06/simonDisplay.o ./src/lab06/simonMain.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 169392	   3192	  37092	 209676	  3330c	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
 
-09:21:06 Build Finished (took 222ms)
+15:19:28 Build Finished (took 784ms)
 

@@ -2,7 +2,7 @@
  * simonDisplay.h
  *
  *  Created on: Jun 4, 2015
- *      Author: tcowley0
+ *      Author: Taylor Cowley
  */
 #ifndef SIMONDISPLAY_H_
 #define SIMONDISPLAY_H_

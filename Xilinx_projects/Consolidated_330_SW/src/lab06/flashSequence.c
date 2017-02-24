@@ -2,7 +2,7 @@
  * flashSequence.c
  *
  *  Created on: Jun 4, 2015
- *      Author: tcowley0
+ *      Author: Taylor Cowley
  */
 
 #include "flashSequence.h"
@@ -48,12 +48,13 @@ void flashSequence_tick(){
 	case flashSequence_init_st:					//Init anything
 		current_index = 0;						//we are displaying the sequence starting at 0
 		//we need to know the current sequence length.
-		sequence_length = globals_getSequenceIterationLength();
+
 		flashSequence_completed_flag = false;	//we have not completed a sequence
 		break;
 
 	case wait_for_enable:			//we can't do anything unless enabled
-		//so we do nothing
+		//The iteration length might be changed right before we are enabled, so check it here.
+		sequence_length = globals_getSequenceIterationLength();
 		break;
 
 	case display_current_square:	//flash the current square of the sequence
@@ -77,7 +78,6 @@ void flashSequence_tick(){
 		break;
 	}
 
-
 	//and lastly we do the state change
 	switch(currentState){
 	case flashSequence_init_st:					//Init anything (like the screen)
@@ -88,7 +88,6 @@ void flashSequence_tick(){
 		if(flashSequence_enable_flag){		//we are enabled; move to next state
 			delay_timer = FLASHSEQUENCE_BLINK_SPEED;	//start the countdown for the blink
 			currentState = display_current_square;		//and move to displaying
-
 			//we also display the current square on the screen during this time.
 			simonDisplay_drawSquare(globals_getSequenceValue(current_index), false);
 		}

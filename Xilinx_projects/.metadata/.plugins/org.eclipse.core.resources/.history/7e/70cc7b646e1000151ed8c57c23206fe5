@@ -1,0 +1,26 @@
+/*
+ * simonMain.c
+ *
+ *  Created on: Jun 11, 2015
+ *      Author: Taylor Cowley
+ */
+
+
+//#include "simonMain.h"
+
+//#include "supportFiles/utils.h"
+
+int main() {
+	printf("Simon says.... :)");
+
+//	while(1){
+//		buttonHandler_tick();
+//		flashSequence_tick();
+//		verifySequence_tick();
+//		simonControl_tick();
+//		utils_msDelay(10);
+//	}
+
+	printf("You win!");
+	return 0;
+}

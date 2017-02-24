@@ -2,9 +2,9 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="257" key="DIALOG_WIDTH"/>
-		<item value="265" key="DIALOG_Y_ORIGIN"/>
+		<item value="233" key="DIALOG_Y_ORIGIN"/>
 		<item value="380" key="DIALOG_HEIGHT"/>
-		<item value="964" key="DIALOG_X_ORIGIN"/>
+		<item value="1150" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
@@ -13,26 +13,26 @@
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="" key="selection"/>
+		<item value="printf" key="selection"/>
 		<list key="findhistory">
-			<item value="\n"/>
+			<item value="printf"/>
+			<item value="globals_set"/>
+			<item value="WHITE"/>
 			<item value=","/>
+			<item value="currentState"/>
+			<item value="\n"/>
 			<item value="SIMON_BUTTON"/>
 			<item value="BOTTOM"/>
-			<item value="TOP"/>
-			<item value="RIGHT"/>
-			<item value="MID"/>
-			<item value="LEFT"/>
 		</list>
 		<list key="replacehistory">
-			<item value="\n\tcase: "/>
+			<item value="BLACK"/>
 			<item value=":"/>
+			<item value="verifySequence_currentState"/>
+			<item value="\n\tcase: "/>
 			<item value="SIMON_DISPLAY_BOTTON"/>
 			<item value="TICTACTOEDISPLAY_BOTTOM"/>
 			<item value="TICTACTOEDISPLAY_TOP"/>
 			<item value="TICTACTOEDISPLAY_RIGHT"/>
-			<item value="TICTACTOEDISPLAY_MID"/>
-			<item value="TICTACTOEDISPLAY_LEFT"/>
 		</list>
 	</section>
 </section>

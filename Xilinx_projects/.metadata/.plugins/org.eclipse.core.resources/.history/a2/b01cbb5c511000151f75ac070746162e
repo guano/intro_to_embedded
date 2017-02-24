@@ -1,0 +1,28 @@
+/*
+ * simonControl.h
+ *
+ *  Created on: Jun 11, 2015
+ *      Author: Taylor Cowley
+ */
+
+#ifndef SIMONCONTROL_H_
+#define SIMONCONTROL_H_
+
+
+
+
+enum simonControl_st_t{
+	simonControl_init_st,			//Init everything (like the screen)
+	start_wait_for_touch,			//start when they touch
+	start_wait_for_release,			//I lied. start when they release
+	flash_sequence,					//show the user the current sequence
+	validate_sequence,				//Let the user try
+	success,
+	failure,
+	longest_run,						//we have ended the verify sequence
+};
+
+
+
+
+#endif /* SIMONCONTROL_H_ */

@@ -30,59 +30,18 @@
 </coolbarLayout>
 <page aggregateWorkingSetId="Aggregate for window 1430423159495" focus="true" label="Workspace - C/C++">
 <editors>
-<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@709f4060">
-<info part="org.eclipse.ui.internal.EditorStack@709f4060">
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-</presentation>
-</folder>
-</info>
-<info part="org.eclipse.ui.internal.EditorStack@7d7f7675" ratio="0.5" ratioLeft="929" ratioRight="929" relationship="2" relative="org.eclipse.ui.internal.EditorStack@709f4060">
-<folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="3"/>
-<part id="5"/>
-<part id="0"/>
-<part id="2"/>
-<part id="1"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="verifySequence.c" partName="verifySequence.c" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj6.2/Xilinx_projects/Consolidated_330_SW/src/lab06/verifySequence.c" title="verifySequence.c" tooltip="Consolidated_330_SW/src/lab06/verifySequence.c" workbook="org.eclipse.ui.internal.EditorStack@709f4060">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab06/verifySequence.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2040" selectionTopPixel="2295"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="lab06test.c" partName="lab06test.c" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj6.2/Xilinx_projects/Consolidated_330_SW/src/lab06/lab06test.c" title="lab06test.c" tooltip="Consolidated_330_SW/src/lab06/lab06test.c" workbook="org.eclipse.ui.internal.EditorStack@709f4060">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab06/lab06test.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="193" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="flashSequence.c" partName="flashSequence.c" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj6.2/Xilinx_projects/Consolidated_330_SW/src/lab06/flashSequence.c" title="flashSequence.c" tooltip="Consolidated_330_SW/src/lab06/flashSequence.c" workbook="org.eclipse.ui.internal.EditorStack@7d7f7675">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab06/flashSequence.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1389" selectionTopPixel="600"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="flashSequence.h" partName="flashSequence.h" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj6.1/Xilinx_projects/Consolidated_330_SW/src/lab06/flashSequence.h" title="flashSequence.h" tooltip="Consolidated_330_SW/src/lab06/flashSequence.h" workbook="org.eclipse.ui.internal.EditorStack@7d7f7675">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab06/flashSequence.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="298" selectionTopPixel="0"/>
-</editor>
-<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="verifySequence.h" partName="verifySequence.h" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj6.2/Xilinx_projects/Consolidated_330_SW/src/lab06/verifySequence.h" title="verifySequence.h" tooltip="Consolidated_330_SW/src/lab06/verifySequence.h" workbook="org.eclipse.ui.internal.EditorStack@7d7f7675">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab06/verifySequence.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="804" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="buttonHandler.h" partName="buttonHandler.h" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj6.2/Xilinx_projects/Consolidated_330_SW/src/lab06/buttonHandler.h" title="buttonHandler.h" tooltip="Consolidated_330_SW/src/lab06/buttonHandler.h" workbook="org.eclipse.ui.internal.EditorStack@7d7f7675">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab06/buttonHandler.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="32" selectionOffset="1084" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="buttonHandler.c" partName="buttonHandler.c" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj6.2/Xilinx_projects/Consolidated_330_SW/src/lab06/buttonHandler.c" title="buttonHandler.c" tooltip="Consolidated_330_SW/src/lab06/buttonHandler.c" workbook="org.eclipse.ui.internal.EditorStack@7d7f7675">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab06/buttonHandler.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1217" selectionTopPixel="630"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="globals.h" partName="globals.h" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj6.2/Xilinx_projects/Consolidated_330_SW/src/lab06/globals.h" title="globals.h" tooltip="Consolidated_330_SW/src/lab06/globals.h" workbook="org.eclipse.ui.internal.EditorStack@7d7f7675">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab06/globals.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="24" selectionOffset="781" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="simonControl.c" partName="simonControl.c" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj6.3/Xilinx_projects/Consolidated_330_SW/src/lab06/simonControl.c" title="simonControl.c" tooltip="Consolidated_330_SW/src/lab06/simonControl.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab06/simonControl.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -143,7 +102,7 @@
 <element path="/HW3_bsp"/>
 </expanded>
 <selection>
-<element path="/Consolidated_330_SW/src/lab06/globals.h"/>
+<element path="/Consolidated_330_SW/src/lab06/globals.c"/>
 </selection>
 </viewState>
 </view>
@@ -226,11 +185,15 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@437c2a67" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3421801"/>
+</fastViews>
+</fastViewBar>
 <fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
 <fastViews>
 <view id="org.eclipse.ui.views.ProblemView" ratio="0.29952607"/>
 <view id="org.eclipse.ui.views.TaskList" ratio="0.29952607"/>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.5876777"/>
 <view id="org.eclipse.ui.views.PropertySheet" ratio="0.29952607"/>
 <view id="org.eclipse.tm.terminal.view.TerminalView" ratio="0.29952607"/>
 </fastViews>
@@ -238,7 +201,7 @@
 <fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@2dc406b3" orientation="512" selectedTabId="org.eclipse.ui.views.ResourceNavigator" style="0">
 <fastViews>
 <view id="com.xilinx.sdk.targetmanager.ui.TargetManagementView" ratio="0.3"/>
-<view id="org.eclipse.ui.views.ResourceNavigator" ratio="0.27771798"/>
+<view id="org.eclipse.ui.views.ResourceNavigator" ratio="0.5844995"/>
 </fastViews>
 </fastViewBar>
 <fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@6cd21dbb" orientation="512" selectedTabId="org.eclipse.ui.views.ProgressView" style="0">
@@ -270,7 +233,6 @@
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.tm.terminal.view.TerminalView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
@@ -286,6 +248,12 @@
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@6cd21dbb" ratio="0.7383628" ratioLeft="460" ratioRight="163" relationship="2" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@437c2a67" ratio="0.18250951" ratioLeft="192" ratioRight="860" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
@@ -436,162 +404,167 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/verifySequence.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/buttonHandler.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/buttonHandler.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/verifySequence.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/flashSequence.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/simonControl.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/globals.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/lab06test.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/simonControl.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/buttonHandler.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/flashSequence.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/flashSequence.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/verifySequence.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/simonDisplay.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/simonDisplay.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/globals.c"/>
 </editors>
-<item historyLabel="buttonHandler.c" index="2">
-<position info="not_deleted" x="1439" y="18"/>
+<item historyLabel="simonControl.c" index="2">
+<position info="not_deleted" x="8141" y="0"/>
+</item>
+<item historyLabel="simonControl.h" index="4">
+<position info="not_deleted" x="1325" y="25"/>
+</item>
+<item historyLabel="simonControl.c" index="2">
+<position info="not_deleted" x="9976" y="0"/>
+</item>
+<item historyLabel="simonControl.h" index="4">
+<position info="not_deleted" x="1421" y="38"/>
+</item>
+<item historyLabel="simonControl.c" index="2">
+<position info="not_deleted" x="9976" y="0"/>
+</item>
+<item historyLabel="simonControl.h" index="4">
+<position info="not_deleted" x="1421" y="38"/>
+</item>
+<item historyLabel="simonControl.c" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="verifySequence.c" index="0">
-<position/>
+<position info="not_deleted" x="5359" y="0"/>
 </item>
-<item historyLabel="buttonHandler.c" index="2">
-<position info="not_deleted" x="1217" y="0"/>
+<item historyLabel="buttonHandler.c" index="1">
+<position info="not_deleted" x="4719" y="0"/>
 </item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="2482" y="0"/>
+<item historyLabel="flashSequence.c" index="6">
+<position info="not_deleted" x="1783" y="0"/>
 </item>
-<item historyLabel="buttonHandler.h" index="1">
-<position info="not_deleted" x="1480" y="0"/>
+<item historyLabel="buttonHandler.h" index="5">
+<position info="not_deleted" x="86" y="0"/>
 </item>
-<item historyLabel="verifySequence.h" index="3">
-<position info="not_deleted" x="402" y="0"/>
+<item historyLabel="globals.h" index="3">
+<position info="not_deleted" x="80" y="0"/>
 </item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="623" y="0"/>
+<item historyLabel="flashSequence.h" index="7">
+<position info="not_deleted" x="26" y="0"/>
 </item>
-<item historyLabel="verifySequence.h" index="3">
-<position info="not_deleted" x="694" y="0"/>
+<item historyLabel="verifySequence.h" index="8">
+<position info="not_deleted" x="23" y="0"/>
 </item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="3347" y="0"/>
+<item historyLabel="simonDisplay.c" index="9">
+<position info="not_deleted" x="4" y="0"/>
 </item>
-<item historyLabel="verifySequence.h" index="3">
-<position info="not_deleted" x="1447" y="0"/>
+<item historyLabel="simonDisplay.h" index="10">
+<position info="not_deleted" x="4" y="0"/>
 </item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="122" y="0"/>
+<item historyLabel="simonDisplay.c" index="9">
+<position info="not_deleted" x="85" y="0"/>
 </item>
-<item historyLabel="verifySequence.h" index="3">
-<position info="not_deleted" x="292" y="0"/>
+<item historyLabel="simonDisplay.h" index="10">
+<position info="not_deleted" x="85" y="0"/>
 </item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="1065" y="0"/>
+<item historyLabel="globals.c" index="11">
+<position info="not_deleted" x="80" y="0"/>
 </item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="4275" y="0"/>
+<item historyLabel="simonControl.h" index="4">
+<position info="not_deleted" x="1421" y="38"/>
 </item>
-<item historyLabel="buttonHandler.h" index="1">
-<position info="not_deleted" x="1396" y="32"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="4275" y="0"/>
+<item historyLabel="simonControl.c" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="4360" y="0"/>
+<position info="not_deleted" x="5359" y="0"/>
+</item>
+<item historyLabel="buttonHandler.c" index="1">
+<position info="not_deleted" x="4719" y="0"/>
+</item>
+<item historyLabel="flashSequence.c" index="6">
+<position info="not_deleted" x="1783" y="0"/>
+</item>
+<item historyLabel="buttonHandler.h" index="5">
+<position info="not_deleted" x="86" y="0"/>
+</item>
+<item historyLabel="globals.h" index="3">
+<position info="not_deleted" x="80" y="0"/>
+</item>
+<item historyLabel="flashSequence.h" index="7">
+<position info="not_deleted" x="26" y="0"/>
+</item>
+<item historyLabel="verifySequence.h" index="8">
+<position info="not_deleted" x="23" y="0"/>
+</item>
+<item historyLabel="simonDisplay.c" index="9">
+<position info="not_deleted" x="85" y="0"/>
+</item>
+<item historyLabel="simonDisplay.h" index="10">
+<position info="not_deleted" x="85" y="0"/>
+</item>
+<item historyLabel="globals.c" index="11">
+<position info="not_deleted" x="80" y="0"/>
+</item>
+<item historyLabel="simonDisplay.h" index="10">
+<position info="not_deleted" x="618" y="0"/>
+</item>
+<item historyLabel="globals.c" index="11">
+<position info="not_deleted" x="80" y="0"/>
+</item>
+<item historyLabel="simonDisplay.c" index="9">
+<position info="not_deleted" x="85" y="0"/>
+</item>
+<item historyLabel="globals.c" index="11">
+<position info="not_deleted" x="113" y="0"/>
+</item>
+<item historyLabel="verifySequence.h" index="8">
+<position info="not_deleted" x="23" y="0"/>
+</item>
+<item historyLabel="globals.h" index="3">
+<position info="not_deleted" x="80" y="0"/>
+</item>
+<item historyLabel="verifySequence.h" index="8">
+<position info="not_deleted" x="23" y="0"/>
+</item>
+<item historyLabel="buttonHandler.h" index="5">
+<position info="not_deleted" x="86" y="0"/>
+</item>
+<item historyLabel="verifySequence.h" index="8">
+<position info="not_deleted" x="23" y="0"/>
+</item>
+<item historyLabel="buttonHandler.c" index="1">
+<position info="not_deleted" x="4719" y="0"/>
+</item>
+<item historyLabel="verifySequence.h" index="8">
+<position info="not_deleted" x="23" y="0"/>
+</item>
+<item historyLabel="flashSequence.h" index="7">
+<position info="not_deleted" x="26" y="0"/>
+</item>
+<item historyLabel="verifySequence.h" index="8">
+<position info="not_deleted" x="23" y="0"/>
+</item>
+<item historyLabel="flashSequence.c" index="6">
+<position info="not_deleted" x="1783" y="0"/>
+</item>
+<item historyLabel="verifySequence.h" index="8">
+<position info="not_deleted" x="23" y="0"/>
 </item>
 <item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="3208" y="0"/>
+<position info="not_deleted" x="322" y="0"/>
 </item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="5245" y="0"/>
+<item historyLabel="simonControl.c" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="5434" y="0"/>
+<item historyLabel="simonControl.h" index="4">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="flashSequence.c" index="4">
-<position info="not_deleted" x="1107" y="195"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="2507" y="0"/>
-</item>
-<item historyLabel="flashSequence.c" index="4">
-<position info="not_deleted" x="1389" y="0"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="2003" y="0"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="2300" y="0"/>
-</item>
-<item historyLabel="buttonHandler.c" index="2">
-<position info="not_deleted" x="1217" y="0"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="2312" y="0"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="2247" y="0"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="4007" y="0"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="2405" y="0"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="2772" y="0"/>
-</item>
-<item historyLabel="globals.h" index="5">
-<position info="not_deleted" x="781" y="24"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="2772" y="0"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="2650" y="0"/>
-</item>
-<item historyLabel="buttonHandler.c" index="2">
-<position info="not_deleted" x="1217" y="0"/>
-</item>
-<item historyLabel="buttonHandler.h" index="1">
-<position info="not_deleted" x="1084" y="32"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="2688" y="0"/>
-</item>
-<item historyLabel="globals.h" index="5">
-<position info="not_deleted" x="781" y="24"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="2688" y="0"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="4696" y="0"/>
-</item>
-<item historyLabel="globals.h" index="5">
-<position info="not_deleted" x="781" y="24"/>
-</item>
-<item historyLabel="lab06test.c" index="6">
-<position info="not_deleted" x="234" y="0"/>
-</item>
-<item historyLabel="lab06test.c" index="6">
-<position info="not_deleted" x="193" y="0"/>
-</item>
-<item historyLabel="verifySequence.h" index="3">
-<position info="not_deleted" x="292" y="0"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="4704" y="0"/>
-</item>
-<item historyLabel="verifySequence.h" index="3">
-<position info="not_deleted" x="804" y="0"/>
-</item>
-<item historyLabel="verifySequence.c" index="0">
-<position info="not_deleted" x="2040" y="0"/>
-</item>
-<item active="true" historyLabel="lab06test.c" index="6">
-<position info="not_deleted" x="193" y="0"/>
+<item active="true" historyLabel="simonControl.c" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -614,54 +587,55 @@
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
 <trimItem IMemento.internal.id="bottom"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@437c2a67"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="globals.c" tooltip="Consolidated_330_SW/src/lab06/globals.c">
+<persistable path="/Consolidated_330_SW/src/lab06/globals.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="simonDisplay.h" tooltip="Consolidated_330_SW/src/lab06/simonDisplay.h">
+<persistable path="/Consolidated_330_SW/src/lab06/simonDisplay.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="simonDisplay.c" tooltip="Consolidated_330_SW/src/lab06/simonDisplay.c">
+<persistable path="/Consolidated_330_SW/src/lab06/simonDisplay.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="verifySequence.h" tooltip="Consolidated_330_SW/src/lab06/verifySequence.h">
+<persistable path="/Consolidated_330_SW/src/lab06/verifySequence.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="flashSequence.h" tooltip="Consolidated_330_SW/src/lab06/flashSequence.h">
+<persistable path="/Consolidated_330_SW/src/lab06/flashSequence.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="flashSequence.c" tooltip="Consolidated_330_SW/src/lab06/flashSequence.c">
+<persistable path="/Consolidated_330_SW/src/lab06/flashSequence.c"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="buttonHandler.c" tooltip="D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW\src\lab06\buttonHandler.c">
+<persistable uri="file:/D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj6.2/Xilinx_projects/Consolidated_330_SW/src/lab06/buttonHandler.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="globals.h" tooltip="Consolidated_330_SW/src/lab06/globals.h">
 <persistable path="/Consolidated_330_SW/src/lab06/globals.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="buttonHandler.c" tooltip="Consolidated_330_SW/src/lab06/buttonHandler.c">
 <persistable path="/Consolidated_330_SW/src/lab06/buttonHandler.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="buttonHandler.h" tooltip="Consolidated_330_SW/src/lab06/buttonHandler.h">
-<persistable path="/Consolidated_330_SW/src/lab06/buttonHandler.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="verifySequence.h" tooltip="Consolidated_330_SW/src/lab06/verifySequence.h">
-<persistable path="/Consolidated_330_SW/src/lab06/verifySequence.h"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="verifySequence.c" tooltip="Consolidated_330_SW/src/lab06/verifySequence.c">
 <persistable path="/Consolidated_330_SW/src/lab06/verifySequence.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="globals.c" tooltip="Consolidated_330_SW/src/lab06/globals.c">
-<persistable path="/Consolidated_330_SW/src/lab06/globals.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="buttonHandler.h" tooltip="Consolidated_330_SW/src/lab06/buttonHandler.h">
+<persistable path="/Consolidated_330_SW/src/lab06/buttonHandler.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="simonDisplay.c" tooltip="Consolidated_330_SW/src/lab06/simonDisplay.c">
-<persistable path="/Consolidated_330_SW/src/lab06/simonDisplay.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lab05timeTest.c" tooltip="Consolidated_330_SW/src/lab05/lab05timeTest.c">
+<persistable path="/Consolidated_330_SW/src/lab05/lab05timeTest.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="simonDisplay.h" tooltip="Consolidated_330_SW/src/lab06/simonDisplay.h">
-<persistable path="/Consolidated_330_SW/src/lab06/simonDisplay.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="simonMain.h" tooltip="Consolidated_330_SW/src/lab06/simonMain.h">
+<persistable path="/Consolidated_330_SW/src/lab06/simonMain.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="flashSequence.c" tooltip="Consolidated_330_SW/src/lab06/flashSequence.c">
-<persistable path="/Consolidated_330_SW/src/lab06/flashSequence.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lab05FINAL.c" tooltip="Consolidated_330_SW/src/lab05/lab05FINAL.c">
+<persistable path="/Consolidated_330_SW/src/lab05/lab05FINAL.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="flashSequence.h" tooltip="Consolidated_330_SW/src/lab06/flashSequence.h">
-<persistable path="/Consolidated_330_SW/src/lab06/flashSequence.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="display.h" tooltip="Consolidated_330_SW/supportFiles/display.h">
-<persistable path="/Consolidated_330_SW/supportFiles/display.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="clockControl.c" tooltip="Consolidated_330_SW/src/lab04/clockControl.c">
-<persistable path="/Consolidated_330_SW/src/lab04/clockControl.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="clockDisplay.h" tooltip="Consolidated_330_SW/src/lab04/clockDisplay.h">
-<persistable path="/Consolidated_330_SW/src/lab04/clockDisplay.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lab06test.c" tooltip="Consolidated_330_SW/src/lab06/lab06test.c">
-<persistable path="/Consolidated_330_SW/src/lab06/lab06test.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="simon.h" tooltip="Consolidated_330_SW/src/simon.h">
-<persistable path="/Consolidated_330_SW/src/simon.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="clockMain.c" tooltip="Consolidated_330_SW/src/lab04/clockMain.c">
+<persistable path="/Consolidated_330_SW/src/lab04/clockMain.c"/>
 </file>
 </mruList>
 </workbench>

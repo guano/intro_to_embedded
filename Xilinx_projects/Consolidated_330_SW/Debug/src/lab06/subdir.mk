@@ -8,8 +8,10 @@ C_SRCS += \
 ../src/lab06/buttons.c \
 ../src/lab06/flashSequence.c \
 ../src/lab06/globals.c \
-../src/lab06/lab06test.c \
+../src/lab06/intervalTimer.c \
+../src/lab06/simonControl.c \
 ../src/lab06/simonDisplay.c \
+../src/lab06/simonMain.c \
 ../src/lab06/verifySequence.c 
 
 OBJS += \
@@ -17,8 +19,10 @@ OBJS += \
 ./src/lab06/buttons.o \
 ./src/lab06/flashSequence.o \
 ./src/lab06/globals.o \
-./src/lab06/lab06test.o \
+./src/lab06/intervalTimer.o \
+./src/lab06/simonControl.o \
 ./src/lab06/simonDisplay.o \
+./src/lab06/simonMain.o \
 ./src/lab06/verifySequence.o 
 
 C_DEPS += \
@@ -26,8 +30,10 @@ C_DEPS += \
 ./src/lab06/buttons.d \
 ./src/lab06/flashSequence.d \
 ./src/lab06/globals.d \
-./src/lab06/lab06test.d \
+./src/lab06/intervalTimer.d \
+./src/lab06/simonControl.d \
 ./src/lab06/simonDisplay.d \
+./src/lab06/simonMain.d \
 ./src/lab06/verifySequence.d 
 
 
@@ -35,7 +41,7 @@ C_DEPS += \
 src/lab06/%.o: ../src/lab06/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: ARM g++ compiler'
-	arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.3\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

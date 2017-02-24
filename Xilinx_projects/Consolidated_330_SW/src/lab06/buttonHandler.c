@@ -2,7 +2,7 @@
  * buttonHandler.c
  *
  *  Created on: Jun 4, 2015
- *      Author: tcowley0
+ *      Author: Taylor Cowley
  */
 
 #include "buttonHandler.h"
@@ -56,8 +56,7 @@ void buttonHandler_tick(){
 	//Execute the state function
 	switch(currentState){
 	case init_st:				//init what we need
-		buttonHandler_release_detected = false;
-		simonDisplay_drawAllButtons();      // Draw all of the buttons.
+		buttonHandler_release_detected = false;		//We haven't detected a button release yet
 		break;
 
 	case wait_for_enable_st:	//wait to be enabled
@@ -85,9 +84,9 @@ void buttonHandler_tick(){
 		break;
 
 	case end_st:				//We have finished! Time to finalize things
-		buttonHandler_release_detected = true;
-		simonDisplay_drawSquare(buttonHandler_last_pushed_button, true); //Draw the square
-	    simonDisplay_drawButton(buttonHandler_last_pushed_button);	   // reraw the button.
+		buttonHandler_release_detected = true;							//We've detected a button release!
+		simonDisplay_drawSquare(buttonHandler_last_pushed_button, true);//Draw the square
+	    simonDisplay_drawButton(buttonHandler_last_pushed_button);	   	// reraw the button.
 
 		break;
 
@@ -109,26 +108,27 @@ void buttonHandler_tick(){
 
 		case wait_for_enable_st:	//we chill until we are enabled
 			if(buttonHandler_enable_flag){
-				currentState = wait_for_touch_st;
+				currentState = wait_for_touch_st;	//and so we move on
+				simonDisplay_drawAllButtons();      // Draw all of the buttons.
 			}
 			break;
 
 		case wait_for_touch_st:		//now we are active, but waiting for a touch
-			if(display_isTouched()){
-				display_clearOldTouchData();
-				touch_ad_timer = BUTTON_HANDLER_TOUCH_COOLDOWN;
-				currentState = touch_ad_timer_st;
+			if(display_isTouched()){								//we are touched!
+				display_clearOldTouchData();						//Clear data
+				touch_ad_timer = BUTTON_HANDLER_TOUCH_COOLDOWN;		//and start the timer
+				currentState = touch_ad_timer_st;					//move to next state
 			}
 			break;
 
 		case touch_ad_timer_st:		//waiting for touch sensor to cool
-			if(touch_ad_timer <= 0){
-				currentState = record_touch_st;
+			if(touch_ad_timer <= 0){				//timer is yet done
+				currentState = record_touch_st;		//Next state= record the touch
 			}
 			break;
 
 		case record_touch_st:		//We've recorded the touch, now to wait for release
-			currentState = wait_for_release_st;
+			currentState = wait_for_release_st;		//next state- wait for them to let go
 			break;
 
 		case wait_for_release_st:	//waiting for user to stop touching :/
@@ -143,7 +143,7 @@ void buttonHandler_tick(){
 
 		case wait_for_disable_st:	//now we wait to be disabled
 			if(!buttonHandler_enable_flag){			//they disabled us
-				currentState = init_st;	//now we wait to be enabled
+				currentState = init_st;				//now we wait to be enabled
 			}
 			break;
 

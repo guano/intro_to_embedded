@@ -1,0 +1,34 @@
+/*
+ * simonControl.h
+ *
+ *  Created on: Jun 11, 2015
+ *      Author: Taylor Cowley
+ */
+
+#ifndef SIMONCONTROL_H_
+#define SIMONCONTROL_H_
+
+#include <stdio.h>
+#include "intervalTimer.h"
+#include "supportFiles/display.h"
+
+//Timer 1 will be the timer for the random seed
+#define SIMONCONTROL_RAND_TIMER XPAR_AXI_TIMER_1_DEVICE_ID
+
+
+enum simonControl_st_t{
+	simonControl_init_st,			//Init everything (like the screen)
+	start_wait_for_touch_st,			//start when they touch
+	start_wait_for_release_st,			//I lied. start when they release
+	flash_sequence_st,					//show the user the current sequence
+	validate_sequence_st,				//Let the user try
+	success_st,
+	touch_for_new_level_st,
+	failure_st,
+	longest_run_st,						//we have ended the verify sequence
+};
+
+
+
+
+#endif /* SIMONCONTROL_H_ */

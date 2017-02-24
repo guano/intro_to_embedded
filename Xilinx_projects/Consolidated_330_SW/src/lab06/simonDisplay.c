@@ -2,7 +2,7 @@
  * simonDisplay.c
  *
  *  Created on: Jun 4, 2015
- *      Author: tcowley0
+ *      Author: Taylor Cowley
  */
 
 #include "simonDisplay.h"

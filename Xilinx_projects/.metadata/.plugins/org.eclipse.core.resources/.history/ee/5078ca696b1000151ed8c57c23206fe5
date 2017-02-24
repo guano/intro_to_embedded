@@ -1,0 +1,278 @@
+/*
+ * simonControl.c
+ *
+ *  Created on: Jun 11, 2015
+ *      Author: Taylor Cowley
+ */
+
+
+#include "simonControl.h"
+
+
+void simonControl_tick() {
+	//This stores the current state of our machine
+	static simonControl_st_t currentState = simonControl_init_st;
+
+	//This is the current level.
+	static uint16_t currentLevel = SIMONCONTROL_START_LEVEL;
+
+	//This is a generic delay counter for our timeouts
+	static int16_t delay = 0;
+
+	//First we do the state actions
+	switch(currentState){
+	case simonControl_init_st:				//Init everything (like the screen)
+		//init stuff
+		globals_setSequenceIterationLength(0);	//We start with displaying only one of the sequence.
+		simonControl_start_rand_timer();		//start the timer for our create_random_sequence function
+		simonControl_display_splash();			//display the splash screen
+		break;
+
+	case start_wait_for_touch_st:				//start when they touch
+		//do nothing. they need to touch to start
+		break;
+
+	case start_wait_for_release_st:				//I lied. start when they release
+		//do nothing. they need to let go for their touch to count
+		break;
+
+	case flash_sequence_st:						//show the user the current sequence
+		//We do nothing- the flash_sequence state machine needs to run
+		break;
+
+	case validate_sequence_st:					//Let the user try
+		//We do nothing- the validate_sequence state machine needs to run
+		break;
+
+	case success_st:							//the user succeeded at this level!
+		delay--;			//we are displaying until this times out
+		break;
+
+	case touch_for_new_level_st:				//We finished the current level!
+		delay--;			//we are displaying until the time runs out
+		break;
+
+	case failure_st:							//the user failed to tap properly
+		delay--;			//we are displaying until the time runs out
+		break;
+
+	case longest_run_st:						//we have ended the verify sequence
+		delay--;			//we are displaying until time runs out
+		break;
+
+	default:								//This is an error
+		printf("Invalid state in simonControl!");		//display error
+		break;
+
+	}
+
+
+	//Then we do the state change
+	switch(currentState){
+	case simonControl_init_st:			//Init everything (like the screen)
+		currentState = start_wait_for_touch_st;		//only one tick inside init.
+		break;
+
+	case start_wait_for_touch_st:		//start when they touch
+		//as soon as they touch, get the timer for the rand seed and make a new sequence.
+		if(display_isTouched()){					//we only move on when they touch
+			simonControl_create_random_sequence(currentLevel);	//we make the sequence for this level
+			currentState = start_wait_for_release_st;
+		}
+		break;
+
+	case start_wait_for_release_st:		//I lied. start when they release
+		if(!display_isTouched()){					//they let go!
+			currentState = flash_sequence_st;		//we can continue
+			flashSequence_enable();					//enable the flashSequence SM!
+		}
+		break;
+
+	case flash_sequence_st:				//show the user the current sequence
+		if(flashSequence_completed()){				//have we completed flashing the sequence?
+			currentState = validate_sequence_st;	//yes! move on to validate sequence
+			flashSequence_disable();				//disable the flashSequence SM!
+			verifySequence_enable();				//enable the validateSequence SM!
+		}
+		break;
+
+	case validate_sequence_st:			//Let the user try
+		if(verifySequence_isComplete()){
+			//Did we fail?
+			if(verifySequence_isTimeOutError() || verifySequence_isUserInputError()){
+				currentState = failure_st;			//We failed. Go to fail screen
+				delay = SIMONCONTROL_FAILURE_DELAY;	//init the delay for their failure
+			} else {
+				//if we have succeeded at this level, go to success!
+				if(globals_getSequenceLength() == globals_getSequenceIterationLength()){
+					currentState = success_st;			//Tell the user they beat the level
+					delay = SIMONCONTROL_SUCCESS_DELAY;	//init the delay timer for success
+					simonControl_display_success();		//tell the user they won
+				} else {	//if we still have things to go for this level, increment and go!
+					globals_setSequenceIterationLength(globals_getSequenceLength() + 1);
+					currentState = flash_sequence_st;	//and we flash again!
+					flashSequence_enable();				//we are entering flashSequence- need to enable it.
+				}
+			}
+			verifySequence_disable();					//disable the validateSequence SM!
+		}
+
+		break;
+
+	case success_st:					//the user succeeded at this level!
+		if(delay <= 0){								//if our timer is over
+			currentState = touch_for_new_level_st;	//move to next state
+			delay = SIMONCONTROL_TOUCH_NEW_LEVEL;	//reset the delay timer for our next state
+			simonControl_display_touch_for_new_level();		//and now to display that
+		}
+		break;
+
+	case touch_for_new_level_st:
+		if(delay <= 0){									//the user didn't touch in time
+			currentState = longest_run_st;				//so we tell them their score
+			delay = SIMONCONTROL_LONGEST_RUN_DELAY;		//init the delay to tell them their longest run
+		} else if (display_isTouched()){				//the user touched it and wants a new level!
+			currentState = start_wait_for_release_st;	//we wait for them to release it now.
+			simonControl_create_random_sequence(++currentLevel);//make the level harder and increment level.
+		}
+		break;
+
+	case failure_st:					//the user failed to tap properly
+		if(delay<= 0){
+			currentState = longest_run_st;				//time to move on
+			delay = SIMONCONTROL_LONGEST_RUN_DELAY;		//init the delay to tell them their longest run
+		}
+		break;
+
+	case longest_run_st:				//we have ended the verify sequence
+		if(delay<= 0){
+			currentState = simonControl_init_st;		//so we start the game over
+		}
+		break;
+
+	default:							//This is an error
+		printf("Invalid state in simonControl!");		//display error
+		break;
+
+	}
+
+}
+
+
+//Starts the timer that we use for the rand seed
+void simonControl_start_rand_timer(){
+	//init timer for rand seed - we don't reset it because we don't care what number is in it
+	intervalTimer_init(SIMONCONTROL_RAND_TIMER);
+	//start the timer!
+	intervalTimer_start(SIMONCONTROL_RAND_TIMER);
+}
+
+//Stops the timer that we use for the rand seed
+void simonControl_stop_rand_timer(){
+	intervalTimer_stop(SIMONCONTROL_RAND_TIMER);
+}
+
+//Turns the timer that we use for the rand seed into a random sequence for our game.
+void simonControl_create_random_sequence(uint16_t length){
+	//Make our sequence. Might as well make it size length
+	uint8_t newSequence[length];
+
+	//get the 64 bit int for the rand timer, MOD it with total possible sequences, and seed rand with it
+	srand(intervalTimer_getTotalDuration(SIMONCONTROL_RAND_TIMER));// % SIMONCONTROL_TOTAL_POSSIBLE_SEQUENCES);
+
+	//We get a new random number for every item in our array
+	for(uint16_t i = 0; i < length; i++){
+		//We mod it with the number of buttons and store it in our array
+		newSequence[i] = rand() % SIMONCONTROL_NUM_BUTTONS;
+	}
+
+	//We make the global sequence the one we just made
+	globals_setSequence(newSequence, length);
+
+
+	//debugging code
+	printf("The new sequence we just made!: ");
+	for(int i=0; i<length;i++){
+		printf("%d ", globals_getSequenceValue(i));
+	}
+	printf("\n\rlength: %d\n\r", length);
+}
+
+//This is the starting splash screen
+void simonControl_display_splash() {
+	  display_fillScreen(DISPLAY_WHITE);			//Fill the background
+	  display_setCursor(0, display_height()/4);		//Center the text vertically
+	  display_setTextColor(DISPLAY_RED);			//Cyan is a good text color
+	  display_setTextSize(SIMONCONTROL_TITLE_SIZE);	//We are doing the title first
+	  display_println("Simon");								//display simon
+	  display_setCursor(0, display_height() * 3 / 4);		//Center the text vertically
+	  display_setTextSize(SIMONCONTROL_STATUS_TEXT_SIZE);	//We are doing the subtitle next
+	  display_println("Touch to start");					//tell them to touch
+}
+
+//This is the "touch for new level" screen
+void simonControl_display_touch_for_new_level(){
+	  display_fillScreen(DISPLAY_WHITE);			//Fill the background
+	  display_setTextColor(DISPLAY_RED);			//Cyan is a good text color
+	  display_setCursor(0, display_height() * 3 / 4);		//Center the text vertically
+	  display_setTextSize(SIMONCONTROL_STATUS_TEXT_SIZE);	//We are doing the subtitle next
+	  display_println("Touch for new level");				//tell them touch for new level
+
+}
+
+//This is the success screen
+void simonControl_display_success(){
+	  display_fillScreen(DISPLAY_WHITE);			//Fill the background
+	  display_setTextColor(DISPLAY_RED);			//Cyan is a good text color
+	  display_setCursor(0, display_height() * 3 / 4);		//Center the text vertically
+	  display_setTextSize(SIMONCONTROL_STATUS_TEXT_SIZE);	//We are doing the subtitle next
+	  display_println("You win!");				//tell them touch for new level
+}
+
+//This is the success screen
+void simonControl_display_failure(){
+	  display_fillScreen(DISPLAY_WHITE);			//Fill the background
+	  display_setTextColor(DISPLAY_RED);			//Cyan is a good text color
+	  display_setCursor(0, display_height() * 3 / 4);		//Center the text vertically
+	  display_setTextSize(SIMONCONTROL_STATUS_TEXT_SIZE);	//We are doing the subtitle next
+	  display_println("You FAIL!");				//tell them touch for new level
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

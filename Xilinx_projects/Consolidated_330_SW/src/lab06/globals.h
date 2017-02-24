@@ -2,7 +2,7 @@
  * globals.h
  *
  *  Created on: Jun 4, 2015
- *      Author: tcowley0
+ *      Author: Taylor Cowley
  */
 
 #ifndef GLOBALS_H_
@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 #define GLOBALS_MAX_FLASH_SEQUENCE 1000		// Make it big so you can use it for a splash screen.
-#define GLOBALS_FLASH_SPEED 10000			//This is a constant, a good multiple for speed.
-
-#define GLOBALS_TOUCH_COOLDOWN 50			//currently we run in ms. 50 is good for the AD thing
+#define GLOBALS_FLASH_SPEED 50				//This is a constant, a good multiple for speed.
+#define GLOBALS_VERIFY_TIMEOUT_SPEED 100	//This is how long we wait for the user to push their buttons
+#define GLOBALS_TOUCH_COOLDOWN 5			//currently we run in ms. 50 is good for the AD thing
 
 // This is the length of the complete sequence at maximum length.
 // You must copy the contents of the sequence[] array into the global variable that you maintain.
