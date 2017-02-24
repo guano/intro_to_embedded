@@ -13,6 +13,8 @@
 #define GLOBALS_MAX_FLASH_SEQUENCE 1000		// Make it big so you can use it for a splash screen.
 #define GLOBALS_FLASH_SPEED 10000			//This is a constant, a good multiple for speed.
 
+#define GLOBALS_TOUCH_COOLDOWN 50			//currently we run in ms. 50 is good for the AD thing
+
 // This is the length of the complete sequence at maximum length.
 // You must copy the contents of the sequence[] array into the global variable that you maintain.
 // Do not just grab the pointer as this will fail.

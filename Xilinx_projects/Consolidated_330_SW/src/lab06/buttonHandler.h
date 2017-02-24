@@ -14,10 +14,11 @@
 #include "supportFiles/display.h"
 #include "supportFiles/utils.h"
 #include "simonDisplay.h"
+#include "globals.h"
 
 
 //This is how many ticks to let the touch sensor cool off before reading it
-#define BUTTON_HANDLER_TOUCH_COOLDOWN 50
+#define BUTTON_HANDLER_TOUCH_COOLDOWN GLOBALS_TOUCH_COOLDOWN
 
 //states for our button handler state machine
 enum buttonHandler_st_t {

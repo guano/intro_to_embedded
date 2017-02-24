@@ -7,6 +7,7 @@
 #include "simonDisplay.h"
 #include "buttonHandler.h"
 #include "flashSequence.h"
+#include "verifySequence.h"
 #include <stdio.h>
 
 
@@ -14,6 +15,7 @@ int main() {
 	printf("Testing our stuff\n\r");
 	//simonDisplay_runTest(5);
 	//buttonHandler_runTest(20);
-	flashSequence_runTest();
+	//flashSequence_runTest();
+	verifySequence_runTest();
 	printf("End of test\n\r");
 }

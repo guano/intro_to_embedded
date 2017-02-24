@@ -32632,3 +32632,980 @@ arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size
 16:08:15 **** Incremental Build of configuration Debug for project Consolidated_330_SW ****
 make all 
 make: Nothing to be done for `all'.
+16:28:35 **** Clean-only build of configuration Debug for project Consolidated_330_SW ****
+make clean 
+rm -rf  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o  ./supportFiles/glcdfont.d ./supportFiles/globalTimer.d ./supportFiles/interrupts.d ./supportFiles/lcd.d ./supportFiles/leds.d ./supportFiles/mio.d ./supportFiles/spi.d  ./src/lab06/buttonHandler.d ./src/lab06/buttons.d ./src/lab06/flashSequence.d ./src/lab06/globals.d ./src/lab06/lab06test.d ./src/lab06/simonDisplay.d ./src/lab06/verifySequence.d  ./src/main.d  ./supportFiles/Adafruit_GFX.d ./supportFiles/Adafruit_STMPE610.d ./supportFiles/Adafruit_TFTLCD.d ./supportFiles/Print.d ./supportFiles/WString.d ./supportFiles/display.d ./supportFiles/new.d ./supportFiles/utils.d  ./src/simon.d  Consolidated_330_SW.elf.size  Consolidated_330_SW.elf
+' '
+16:28:35 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../supportFiles/Adafruit_GFX.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Adafruit_GFX.d" -MT"supportFiles/Adafruit_GFX.d" -o "supportFiles/Adafruit_GFX.o" "../supportFiles/Adafruit_GFX.cpp"
+'Finished building: ../supportFiles/Adafruit_GFX.cpp'
+' '
+'Building file: ../supportFiles/Adafruit_STMPE610.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Adafruit_STMPE610.d" -MT"supportFiles/Adafruit_STMPE610.d" -o "supportFiles/Adafruit_STMPE610.o" "../supportFiles/Adafruit_STMPE610.cpp"
+'Finished building: ../supportFiles/Adafruit_STMPE610.cpp'
+' '
+'Building file: ../supportFiles/Adafruit_TFTLCD.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Adafruit_TFTLCD.d" -MT"supportFiles/Adafruit_TFTLCD.d" -o "supportFiles/Adafruit_TFTLCD.o" "../supportFiles/Adafruit_TFTLCD.cpp"
+../supportFiles/Adafruit_TFTLCD.cpp: In member function 'void Adafruit_TFTLCD::begin(short unsigned int)':
+../supportFiles/Adafruit_TFTLCD.cpp:256:14: warning: unused variable 'a' [-Wunused-variable]
+     uint16_t a, d;
+              ^
+../supportFiles/Adafruit_TFTLCD.cpp:256:17: warning: unused variable 'd' [-Wunused-variable]
+     uint16_t a, d;
+                 ^
+../supportFiles/Adafruit_TFTLCD.cpp: In member function 'void Adafruit_TFTLCD::setRotation(unsigned char)':
+../supportFiles/Adafruit_TFTLCD.cpp:753:13: warning: 't' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    uint16_t t;
+             ^
+'Finished building: ../supportFiles/Adafruit_TFTLCD.cpp'
+' '
+'Building file: ../supportFiles/Print.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Print.d" -MT"supportFiles/Print.d" -o "supportFiles/Print.o" "../supportFiles/Print.cpp"
+'Finished building: ../supportFiles/Print.cpp'
+' '
+'Building file: ../supportFiles/WString.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/WString.d" -MT"supportFiles/WString.d" -o "supportFiles/WString.o" "../supportFiles/WString.cpp"
+'Finished building: ../supportFiles/WString.cpp'
+' '
+'Building file: ../supportFiles/display.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/display.d" -MT"supportFiles/display.d" -o "supportFiles/display.o" "../supportFiles/display.cpp"
+'Finished building: ../supportFiles/display.cpp'
+' '
+'Building file: ../supportFiles/glcdfont.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/glcdfont.d" -MT"supportFiles/glcdfont.d" -o "supportFiles/glcdfont.o" "../supportFiles/glcdfont.c"
+'Finished building: ../supportFiles/glcdfont.c'
+' '
+'Building file: ../supportFiles/globalTimer.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/globalTimer.d" -MT"supportFiles/globalTimer.d" -o "supportFiles/globalTimer.o" "../supportFiles/globalTimer.c"
+'Finished building: ../supportFiles/globalTimer.c'
+' '
+'Building file: ../supportFiles/interrupts.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/interrupts.d" -MT"supportFiles/interrupts.d" -o "supportFiles/interrupts.o" "../supportFiles/interrupts.c"
+'Finished building: ../supportFiles/interrupts.c'
+' '
+'Building file: ../supportFiles/lcd.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/lcd.d" -MT"supportFiles/lcd.d" -o "supportFiles/lcd.o" "../supportFiles/lcd.c"
+'Finished building: ../supportFiles/lcd.c'
+' '
+'Building file: ../supportFiles/leds.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/leds.d" -MT"supportFiles/leds.d" -o "supportFiles/leds.o" "../supportFiles/leds.c"
+'Finished building: ../supportFiles/leds.c'
+' '
+'Building file: ../supportFiles/mio.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/mio.d" -MT"supportFiles/mio.d" -o "supportFiles/mio.o" "../supportFiles/mio.c"
+'Finished building: ../supportFiles/mio.c'
+' '
+'Building file: ../supportFiles/new.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/new.d" -MT"supportFiles/new.d" -o "supportFiles/new.o" "../supportFiles/new.cpp"
+'Finished building: ../supportFiles/new.cpp'
+' '
+'Building file: ../supportFiles/spi.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/spi.d" -MT"supportFiles/spi.d" -o "supportFiles/spi.o" "../supportFiles/spi.c"
+'Finished building: ../supportFiles/spi.c'
+' '
+'Building file: ../supportFiles/utils.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/utils.d" -MT"supportFiles/utils.d" -o "supportFiles/utils.o" "../supportFiles/utils.cpp"
+'Finished building: ../supportFiles/utils.cpp'
+' '
+'Building file: ../src/lab06/buttonHandler.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/buttonHandler.d" -MT"src/lab06/buttonHandler.d" -o "src/lab06/buttonHandler.o" "../src/lab06/buttonHandler.c"
+'Finished building: ../src/lab06/buttonHandler.c'
+' '
+'Building file: ../src/lab06/buttons.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/buttons.d" -MT"src/lab06/buttons.d" -o "src/lab06/buttons.o" "../src/lab06/buttons.c"
+'Finished building: ../src/lab06/buttons.c'
+' '
+'Building file: ../src/lab06/flashSequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/flashSequence.d" -MT"src/lab06/flashSequence.d" -o "src/lab06/flashSequence.o" "../src/lab06/flashSequence.c"
+'Finished building: ../src/lab06/flashSequence.c'
+' '
+'Building file: ../src/lab06/globals.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/globals.d" -MT"src/lab06/globals.d" -o "src/lab06/globals.o" "../src/lab06/globals.c"
+'Finished building: ../src/lab06/globals.c'
+' '
+'Building file: ../src/lab06/lab06test.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/lab06test.d" -MT"src/lab06/lab06test.d" -o "src/lab06/lab06test.o" "../src/lab06/lab06test.c"
+'Finished building: ../src/lab06/lab06test.c'
+' '
+'Building file: ../src/lab06/simonDisplay.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/simonDisplay.d" -MT"src/lab06/simonDisplay.d" -o "src/lab06/simonDisplay.o" "../src/lab06/simonDisplay.c"
+'Finished building: ../src/lab06/simonDisplay.c'
+' '
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+In file included from ../src/lab06/verifySequence.c:8:0:
+../src/lab06/verifySequence.h:20:2: error: redeclaration of 'init_st'
+  init_st,    //Init everything (like the screen)
+  ^
+In file included from ../src/lab06/verifySequence.h:13:0,
+                 from ../src/lab06/verifySequence.c:8:
+../src/lab06/buttonHandler.h:24:2: note: previous declaration 'buttonHandler_st_t init_st'
+  init_st,    //inits our state machine
+  ^
+../src/lab06/verifySequence.c: In function 'bool verifySequence_isTimeOutError()':
+../src/lab06/verifySequence.c:23:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../src/lab06/verifySequence.c: In function 'bool verifySequence_isUserInputError()':
+../src/lab06/verifySequence.c:28:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../src/lab06/verifySequence.c: In function 'bool verifySequence_isComplete()':
+../src/lab06/verifySequence.c:33:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+make: *** [src/lab06/verifySequence.o] Error 1
+16:28:44 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+In file included from ../src/lab06/verifySequence.c:8:0:
+../src/lab06/verifySequence.h:20:2: error: redeclaration of 'init_st'
+  init_st,    //Init everything (like the screen)
+  ^
+In file included from ../src/lab06/verifySequence.h:13:0,
+                 from ../src/lab06/verifySequence.c:8:
+../src/lab06/buttonHandler.h:24:2: note: previous declaration 'buttonHandler_st_t init_st'
+  init_st,    //inits our state machine
+  ^
+../src/lab06/verifySequence.c: In function 'bool verifySequence_isTimeOutError()':
+../src/lab06/verifySequence.c:23:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../src/lab06/verifySequence.c: In function 'bool verifySequence_isUserInputError()':
+../src/lab06/verifySequence.c:28:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../src/lab06/verifySequence.c: In function 'bool verifySequence_isComplete()':
+../src/lab06/verifySequence.c:33:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+make: *** [src/lab06/verifySequence.o] Error 1
+16:28:55 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'bool verifySequence_isTimeOutError()':
+../src/lab06/verifySequence.c:23:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../src/lab06/verifySequence.c: In function 'bool verifySequence_isUserInputError()':
+../src/lab06/verifySequence.c:28:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../src/lab06/verifySequence.c: In function 'bool verifySequence_isComplete()':
+../src/lab06/verifySequence.c:33:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/lab06/verifySequence.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/simon.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/simon.d" -MT"src/simon.d" -o "src/simon.o" "../src/simon.cpp"
+'Finished building: ../src/simon.cpp'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HW3_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 169240	   3192	  37084	 209516	  3326c	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+16:32:01 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+'Finished building: ../src/lab06/verifySequence.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HW3_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 169232	   3192	  37088	 209512	  33268	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+16:32:35 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+make: Nothing to be done for `all'.
+16:33:03 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+'Finished building: ../src/lab06/verifySequence.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HW3_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 169232	   3192	  37088	 209512	  33268	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+16:35:36 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:67:3: error: expected ':' before 'break'
+   break;
+   ^
+make: *** [src/lab06/verifySequence.o] Error 1
+16:35:42 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:53:2: warning: 'currentState' is used uninitialized in this function [-Wuninitialized]
+  switch(currentState){
+  ^
+'Finished building: ../src/lab06/verifySequence.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HW3_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 169232	   3192	  37088	 209512	  33268	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+16:35:59 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+'Finished building: ../src/lab06/verifySequence.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HW3_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 169232	   3192	  37088	 209512	  33268	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+16:40:42 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:55:17: warning: variable 'delay_timer' set but not used [-Wunused-but-set-variable]
+  static int16_t delay_timer = 0;
+                 ^
+../src/lab06/verifySequence.c: At global scope:
+../src/lab06/verifySequence.c:112:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/lab06/verifySequence.o] Error 1
+16:40:58 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:55:17: warning: variable 'delay_timer' set but not used [-Wunused-but-set-variable]
+  static int16_t delay_timer = 0;
+                 ^
+../src/lab06/verifySequence.c: At global scope:
+../src/lab06/verifySequence.c:112:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/lab06/verifySequence.o] Error 1
+16:43:55 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:55:17: warning: variable 'delay_timer' set but not used [-Wunused-but-set-variable]
+  static int16_t delay_timer = 0;
+                 ^
+../src/lab06/verifySequence.c: At global scope:
+../src/lab06/verifySequence.c:112:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/lab06/verifySequence.o] Error 1
+16:44:15 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:55:17: warning: variable 'delay_timer' set but not used [-Wunused-but-set-variable]
+  static int16_t delay_timer = 0;
+                 ^
+../src/lab06/verifySequence.c: At global scope:
+../src/lab06/verifySequence.c:112:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/lab06/verifySequence.o] Error 1
+16:44:31 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:55:17: warning: variable 'delay_timer' set but not used [-Wunused-but-set-variable]
+  static int16_t delay_timer = 0;
+                 ^
+../src/lab06/verifySequence.c: At global scope:
+../src/lab06/verifySequence.c:112:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/lab06/verifySequence.o] Error 1
+16:51:23 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.1\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c:171:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/lab06/verifySequence.o] Error 1
+08:42:46 **** Clean-only build of configuration Debug for project Consolidated_330_SW ****
+make clean 
+rm -rf  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o  ./supportFiles/glcdfont.d ./supportFiles/globalTimer.d ./supportFiles/interrupts.d ./supportFiles/lcd.d ./supportFiles/leds.d ./supportFiles/mio.d ./supportFiles/spi.d  ./src/lab06/buttonHandler.d ./src/lab06/buttons.d ./src/lab06/flashSequence.d ./src/lab06/globals.d ./src/lab06/lab06test.d ./src/lab06/simonDisplay.d ./src/lab06/verifySequence.d  ./src/main.d  ./supportFiles/Adafruit_GFX.d ./supportFiles/Adafruit_STMPE610.d ./supportFiles/Adafruit_TFTLCD.d ./supportFiles/Print.d ./supportFiles/WString.d ./supportFiles/display.d ./supportFiles/new.d ./supportFiles/utils.d  ./src/simon.d  Consolidated_330_SW.elf.size  Consolidated_330_SW.elf
+' '
+08:42:46 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../supportFiles/Adafruit_GFX.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Adafruit_GFX.d" -MT"supportFiles/Adafruit_GFX.d" -o "supportFiles/Adafruit_GFX.o" "../supportFiles/Adafruit_GFX.cpp"
+'Finished building: ../supportFiles/Adafruit_GFX.cpp'
+' '
+'Building file: ../supportFiles/Adafruit_STMPE610.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Adafruit_STMPE610.d" -MT"supportFiles/Adafruit_STMPE610.d" -o "supportFiles/Adafruit_STMPE610.o" "../supportFiles/Adafruit_STMPE610.cpp"
+'Finished building: ../supportFiles/Adafruit_STMPE610.cpp'
+' '
+'Building file: ../supportFiles/Adafruit_TFTLCD.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Adafruit_TFTLCD.d" -MT"supportFiles/Adafruit_TFTLCD.d" -o "supportFiles/Adafruit_TFTLCD.o" "../supportFiles/Adafruit_TFTLCD.cpp"
+../supportFiles/Adafruit_TFTLCD.cpp: In member function 'void Adafruit_TFTLCD::begin(short unsigned int)':
+../supportFiles/Adafruit_TFTLCD.cpp:256:14: warning: unused variable 'a' [-Wunused-variable]
+     uint16_t a, d;
+              ^
+../supportFiles/Adafruit_TFTLCD.cpp:256:17: warning: unused variable 'd' [-Wunused-variable]
+     uint16_t a, d;
+                 ^
+../supportFiles/Adafruit_TFTLCD.cpp: In member function 'void Adafruit_TFTLCD::setRotation(unsigned char)':
+../supportFiles/Adafruit_TFTLCD.cpp:753:13: warning: 't' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    uint16_t t;
+             ^
+'Finished building: ../supportFiles/Adafruit_TFTLCD.cpp'
+' '
+'Building file: ../supportFiles/Print.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Print.d" -MT"supportFiles/Print.d" -o "supportFiles/Print.o" "../supportFiles/Print.cpp"
+'Finished building: ../supportFiles/Print.cpp'
+' '
+'Building file: ../supportFiles/WString.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/WString.d" -MT"supportFiles/WString.d" -o "supportFiles/WString.o" "../supportFiles/WString.cpp"
+'Finished building: ../supportFiles/WString.cpp'
+' '
+'Building file: ../supportFiles/display.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/display.d" -MT"supportFiles/display.d" -o "supportFiles/display.o" "../supportFiles/display.cpp"
+'Finished building: ../supportFiles/display.cpp'
+' '
+'Building file: ../supportFiles/glcdfont.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/glcdfont.d" -MT"supportFiles/glcdfont.d" -o "supportFiles/glcdfont.o" "../supportFiles/glcdfont.c"
+'Finished building: ../supportFiles/glcdfont.c'
+' '
+'Building file: ../supportFiles/globalTimer.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/globalTimer.d" -MT"supportFiles/globalTimer.d" -o "supportFiles/globalTimer.o" "../supportFiles/globalTimer.c"
+'Finished building: ../supportFiles/globalTimer.c'
+' '
+'Building file: ../supportFiles/interrupts.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/interrupts.d" -MT"supportFiles/interrupts.d" -o "supportFiles/interrupts.o" "../supportFiles/interrupts.c"
+'Finished building: ../supportFiles/interrupts.c'
+' '
+'Building file: ../supportFiles/lcd.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/lcd.d" -MT"supportFiles/lcd.d" -o "supportFiles/lcd.o" "../supportFiles/lcd.c"
+'Finished building: ../supportFiles/lcd.c'
+' '
+'Building file: ../supportFiles/leds.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/leds.d" -MT"supportFiles/leds.d" -o "supportFiles/leds.o" "../supportFiles/leds.c"
+'Finished building: ../supportFiles/leds.c'
+' '
+'Building file: ../supportFiles/mio.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/mio.d" -MT"supportFiles/mio.d" -o "supportFiles/mio.o" "../supportFiles/mio.c"
+'Finished building: ../supportFiles/mio.c'
+' '
+'Building file: ../supportFiles/new.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/new.d" -MT"supportFiles/new.d" -o "supportFiles/new.o" "../supportFiles/new.cpp"
+'Finished building: ../supportFiles/new.cpp'
+' '
+'Building file: ../supportFiles/spi.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/spi.d" -MT"supportFiles/spi.d" -o "supportFiles/spi.o" "../supportFiles/spi.c"
+'Finished building: ../supportFiles/spi.c'
+' '
+'Building file: ../supportFiles/utils.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/utils.d" -MT"supportFiles/utils.d" -o "supportFiles/utils.o" "../supportFiles/utils.cpp"
+'Finished building: ../supportFiles/utils.cpp'
+' '
+'Building file: ../src/lab06/buttonHandler.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/buttonHandler.d" -MT"src/lab06/buttonHandler.d" -o "src/lab06/buttonHandler.o" "../src/lab06/buttonHandler.c"
+In file included from ../src/lab06/buttonHandler.c:8:0:
+../src/lab06/buttonHandler.c: In function 'void buttonHandler_tick()':
+../src/lab06/buttonHandler.h:20:39: error: 'GLOBALS_TOUCH_COOLDOWN' was not declared in this scope
+ #define BUTTON_HANDLER_TOUCH_COOLDOWN GLOBALS_TOUCH_COOLDOWN
+                                       ^
+../src/lab06/buttonHandler.c:118:22: note: in expansion of macro 'BUTTON_HANDLER_TOUCH_COOLDOWN'
+     touch_ad_timer = BUTTON_HANDLER_TOUCH_COOLDOWN;
+                      ^
+make: *** [src/lab06/buttonHandler.o] Error 1
+08:43:01 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/buttonHandler.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/buttonHandler.d" -MT"src/lab06/buttonHandler.d" -o "src/lab06/buttonHandler.o" "../src/lab06/buttonHandler.c"
+In file included from ../src/lab06/buttonHandler.c:8:0:
+../src/lab06/buttonHandler.c: In function 'void buttonHandler_tick()':
+../src/lab06/buttonHandler.h:20:39: error: 'GLOBALS_TOUCH_COOLDOWN' was not declared in this scope
+ #define BUTTON_HANDLER_TOUCH_COOLDOWN GLOBALS_TOUCH_COOLDOWN
+                                       ^
+../src/lab06/buttonHandler.c:119:22: note: in expansion of macro 'BUTTON_HANDLER_TOUCH_COOLDOWN'
+     touch_ad_timer = BUTTON_HANDLER_TOUCH_COOLDOWN;
+                      ^
+make: *** [src/lab06/buttonHandler.o] Error 1
+08:47:34 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/buttonHandler.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/buttonHandler.d" -MT"src/lab06/buttonHandler.d" -o "src/lab06/buttonHandler.o" "../src/lab06/buttonHandler.c"
+'Finished building: ../src/lab06/buttonHandler.c'
+' '
+'Building file: ../src/lab06/buttons.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/buttons.d" -MT"src/lab06/buttons.d" -o "src/lab06/buttons.o" "../src/lab06/buttons.c"
+'Finished building: ../src/lab06/buttons.c'
+' '
+'Building file: ../src/lab06/flashSequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/flashSequence.d" -MT"src/lab06/flashSequence.d" -o "src/lab06/flashSequence.o" "../src/lab06/flashSequence.c"
+'Finished building: ../src/lab06/flashSequence.c'
+' '
+'Building file: ../src/lab06/globals.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/globals.d" -MT"src/lab06/globals.d" -o "src/lab06/globals.o" "../src/lab06/globals.c"
+'Finished building: ../src/lab06/globals.c'
+' '
+'Building file: ../src/lab06/lab06test.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/lab06test.d" -MT"src/lab06/lab06test.d" -o "src/lab06/lab06test.o" "../src/lab06/lab06test.c"
+'Finished building: ../src/lab06/lab06test.c'
+' '
+'Building file: ../src/lab06/simonDisplay.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/simonDisplay.d" -MT"src/lab06/simonDisplay.d" -o "src/lab06/simonDisplay.o" "../src/lab06/simonDisplay.c"
+'Finished building: ../src/lab06/simonDisplay.c'
+' '
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c:171:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/lab06/verifySequence.o] Error 1
+08:49:44 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:114:7: error: 'touch_cooldown' was not declared in this scope
+  case touch_cooldown:   //we wait for the touch sensor to cool down
+       ^
+../src/lab06/verifySequence.c:116:7: error: 'read_touch' was not declared in this scope
+  case read_touch:    //time to register the touch
+       ^
+../src/lab06/verifySequence.c:141:19: error: 'touch_cooldown' was not declared in this scope
+    currentState = touch_cooldown; //start the touch sensor cooldown
+                   ^
+../src/lab06/verifySequence.c:149:7: error: 'touch_cooldown' was not declared in this scope
+  case touch_cooldown:  //we wait for the touch sensor to cool down
+       ^
+../src/lab06/verifySequence.c:151:19: error: 'read_touch' was not declared in this scope
+    currentState = read_touch; //so let's read the touch
+                   ^
+../src/lab06/verifySequence.c:154:7: error: 'read_touch' was not declared in this scope
+  case read_touch:   //time to register the touch
+       ^
+../src/lab06/verifySequence.c: At global scope:
+../src/lab06/verifySequence.c:171:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/lab06/verifySequence.o] Error 1
+08:49:45 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:141:19: error: 'touch_cooldown' was not declared in this scope
+    currentState = touch_cooldown; //start the touch sensor cooldown
+                   ^
+../src/lab06/verifySequence.c: At global scope:
+../src/lab06/verifySequence.c:167:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/lab06/verifySequence.o] Error 1
+08:49:58 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c:167:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/lab06/verifySequence.o] Error 1
+08:56:32 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+'Finished building: ../src/lab06/verifySequence.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/simon.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/simon.d" -MT"src/simon.d" -o "src/simon.o" "../src/simon.cpp"
+'Finished building: ../src/simon.cpp'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HW3_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 169236	   3192	  37084	 209512	  33268	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+08:57:28 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+'Finished building: ../src/lab06/verifySequence.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HW3_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 169236	   3192	  37084	 209512	  33268	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+08:58:01 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+'Finished building: ../src/lab06/verifySequence.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HW3_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 169236	   3192	  37084	 209512	  33268	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+09:15:08 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:88:50: error: 'buttonHandler_buttonHandler_getRegionNumber' was not declared in this scope
+   if(buttonHandler_buttonHandler_getRegionNumber() != globals_getSequenceValue(current_index)){
+                                                  ^
+../src/lab06/verifySequence.c:95:3: error: 'verifySequence_completed' was not declared in this scope
+   verifySequence_completed = true; //we flag that we have finished
+   ^
+make: *** [src/lab06/verifySequence.o] Error 1
+09:15:18 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:95:3: error: 'verifySequence_completed' was not declared in this scope
+   verifySequence_completed = true; //we flag that we have finished
+   ^
+make: *** [src/lab06/verifySequence.o] Error 1
+09:15:29 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:57:17: warning: variable 'sequence_length' set but not used [-Wunused-but-set-variable]
+  static int16_t sequence_length = 0;
+                 ^
+'Finished building: ../src/lab06/verifySequence.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HW3_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 169232	   3192	  37088	 209512	  33268	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+09:16:49 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:57:17: warning: variable 'sequence_length' set but not used [-Wunused-but-set-variable]
+  static int16_t sequence_length = 0;
+                 ^
+'Finished building: ../src/lab06/verifySequence.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HW3_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 169232	   3192	  37088	 209512	  33268	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+09:18:43 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:57:17: warning: unused variable 'sequence_length' [-Wunused-variable]
+  static int16_t sequence_length = 0;
+                 ^
+'Finished building: ../src/lab06/verifySequence.c'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HW3_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 169232	   3192	  37088	 209512	  33268	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+09:19:14 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/lab06test.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/lab06test.d" -MT"src/lab06/lab06test.d" -o "src/lab06/lab06test.o" "../src/lab06/lab06test.c"
+In file included from ../src/lab06/lab06test.c:10:0:
+../src/lab06/verifySequence.h:23:2: error: redeclaration of 'wait_for_enable'
+  wait_for_enable,  //we can't do anything unless enabled
+  ^
+In file included from ../src/lab06/lab06test.c:9:0:
+../src/lab06/flashSequence.h:22:2: note: previous declaration 'flashSequence_st_t wait_for_enable'
+  wait_for_enable,  //we can't do anything unless enabled
+  ^
+In file included from ../src/lab06/lab06test.c:10:0:
+../src/lab06/verifySequence.h:28:2: error: redeclaration of 'wait_for_disable'
+  wait_for_disable  //chill here until disabled
+  ^
+In file included from ../src/lab06/lab06test.c:9:0:
+../src/lab06/flashSequence.h:26:2: note: previous declaration 'flashSequence_st_t wait_for_disable'
+  wait_for_disable  //chill here until disabled
+  ^
+make: *** [src/lab06/lab06test.o] Error 1
+09:19:41 **** Incremental Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/lab06test.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/lab06test.d" -MT"src/lab06/lab06test.d" -o "src/lab06/lab06test.o" "../src/lab06/lab06test.c"
+In file included from ../src/lab06/lab06test.c:10:0:
+../src/lab06/verifySequence.h:23:2: error: redeclaration of 'wait_for_enable'
+  wait_for_enable,  //we can't do anything unless enabled
+  ^
+In file included from ../src/lab06/lab06test.c:9:0:
+../src/lab06/flashSequence.h:22:2: note: previous declaration 'flashSequence_st_t wait_for_enable'
+  wait_for_enable,  //we can't do anything unless enabled
+  ^
+In file included from ../src/lab06/lab06test.c:10:0:
+../src/lab06/verifySequence.h:28:2: error: redeclaration of 'wait_for_disable'
+  wait_for_disable  //chill here until disabled
+  ^
+In file included from ../src/lab06/lab06test.c:9:0:
+../src/lab06/flashSequence.h:26:2: note: previous declaration 'flashSequence_st_t wait_for_disable'
+  wait_for_disable  //chill here until disabled
+  ^
+make: *** [src/lab06/lab06test.o] Error 1
+09:20:28 **** Clean-only build of configuration Debug for project Consolidated_330_SW ****
+make clean 
+rm -rf  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o  ./supportFiles/glcdfont.d ./supportFiles/globalTimer.d ./supportFiles/interrupts.d ./supportFiles/lcd.d ./supportFiles/leds.d ./supportFiles/mio.d ./supportFiles/spi.d  ./src/lab06/buttonHandler.d ./src/lab06/buttons.d ./src/lab06/flashSequence.d ./src/lab06/globals.d ./src/lab06/lab06test.d ./src/lab06/simonDisplay.d ./src/lab06/verifySequence.d  ./src/main.d  ./supportFiles/Adafruit_GFX.d ./supportFiles/Adafruit_STMPE610.d ./supportFiles/Adafruit_TFTLCD.d ./supportFiles/Print.d ./supportFiles/WString.d ./supportFiles/display.d ./supportFiles/new.d ./supportFiles/utils.d  ./src/simon.d  Consolidated_330_SW.elf.size  Consolidated_330_SW.elf
+' '
+09:20:28 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../supportFiles/Adafruit_GFX.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Adafruit_GFX.d" -MT"supportFiles/Adafruit_GFX.d" -o "supportFiles/Adafruit_GFX.o" "../supportFiles/Adafruit_GFX.cpp"
+'Finished building: ../supportFiles/Adafruit_GFX.cpp'
+' '
+'Building file: ../supportFiles/Adafruit_STMPE610.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Adafruit_STMPE610.d" -MT"supportFiles/Adafruit_STMPE610.d" -o "supportFiles/Adafruit_STMPE610.o" "../supportFiles/Adafruit_STMPE610.cpp"
+'Finished building: ../supportFiles/Adafruit_STMPE610.cpp'
+' '
+'Building file: ../supportFiles/Adafruit_TFTLCD.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Adafruit_TFTLCD.d" -MT"supportFiles/Adafruit_TFTLCD.d" -o "supportFiles/Adafruit_TFTLCD.o" "../supportFiles/Adafruit_TFTLCD.cpp"
+../supportFiles/Adafruit_TFTLCD.cpp: In member function 'void Adafruit_TFTLCD::begin(short unsigned int)':
+../supportFiles/Adafruit_TFTLCD.cpp:256:14: warning: unused variable 'a' [-Wunused-variable]
+     uint16_t a, d;
+              ^
+../supportFiles/Adafruit_TFTLCD.cpp:256:17: warning: unused variable 'd' [-Wunused-variable]
+     uint16_t a, d;
+                 ^
+../supportFiles/Adafruit_TFTLCD.cpp: In member function 'void Adafruit_TFTLCD::setRotation(unsigned char)':
+../supportFiles/Adafruit_TFTLCD.cpp:753:13: warning: 't' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    uint16_t t;
+             ^
+'Finished building: ../supportFiles/Adafruit_TFTLCD.cpp'
+' '
+'Building file: ../supportFiles/Print.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/Print.d" -MT"supportFiles/Print.d" -o "supportFiles/Print.o" "../supportFiles/Print.cpp"
+'Finished building: ../supportFiles/Print.cpp'
+' '
+'Building file: ../supportFiles/WString.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/WString.d" -MT"supportFiles/WString.d" -o "supportFiles/WString.o" "../supportFiles/WString.cpp"
+'Finished building: ../supportFiles/WString.cpp'
+' '
+'Building file: ../supportFiles/display.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/display.d" -MT"supportFiles/display.d" -o "supportFiles/display.o" "../supportFiles/display.cpp"
+'Finished building: ../supportFiles/display.cpp'
+' '
+'Building file: ../supportFiles/glcdfont.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/glcdfont.d" -MT"supportFiles/glcdfont.d" -o "supportFiles/glcdfont.o" "../supportFiles/glcdfont.c"
+'Finished building: ../supportFiles/glcdfont.c'
+' '
+'Building file: ../supportFiles/globalTimer.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/globalTimer.d" -MT"supportFiles/globalTimer.d" -o "supportFiles/globalTimer.o" "../supportFiles/globalTimer.c"
+'Finished building: ../supportFiles/globalTimer.c'
+' '
+'Building file: ../supportFiles/interrupts.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/interrupts.d" -MT"supportFiles/interrupts.d" -o "supportFiles/interrupts.o" "../supportFiles/interrupts.c"
+'Finished building: ../supportFiles/interrupts.c'
+' '
+'Building file: ../supportFiles/lcd.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/lcd.d" -MT"supportFiles/lcd.d" -o "supportFiles/lcd.o" "../supportFiles/lcd.c"
+'Finished building: ../supportFiles/lcd.c'
+' '
+'Building file: ../supportFiles/leds.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/leds.d" -MT"supportFiles/leds.d" -o "supportFiles/leds.o" "../supportFiles/leds.c"
+'Finished building: ../supportFiles/leds.c'
+' '
+'Building file: ../supportFiles/mio.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/mio.d" -MT"supportFiles/mio.d" -o "supportFiles/mio.o" "../supportFiles/mio.c"
+'Finished building: ../supportFiles/mio.c'
+' '
+'Building file: ../supportFiles/new.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/new.d" -MT"supportFiles/new.d" -o "supportFiles/new.o" "../supportFiles/new.cpp"
+'Finished building: ../supportFiles/new.cpp'
+' '
+'Building file: ../supportFiles/spi.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/spi.d" -MT"supportFiles/spi.d" -o "supportFiles/spi.o" "../supportFiles/spi.c"
+'Finished building: ../supportFiles/spi.c'
+' '
+'Building file: ../supportFiles/utils.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"supportFiles/utils.d" -MT"supportFiles/utils.d" -o "supportFiles/utils.o" "../supportFiles/utils.cpp"
+'Finished building: ../supportFiles/utils.cpp'
+' '
+'Building file: ../src/lab06/buttonHandler.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/buttonHandler.d" -MT"src/lab06/buttonHandler.d" -o "src/lab06/buttonHandler.o" "../src/lab06/buttonHandler.c"
+'Finished building: ../src/lab06/buttonHandler.c'
+' '
+'Building file: ../src/lab06/buttons.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/buttons.d" -MT"src/lab06/buttons.d" -o "src/lab06/buttons.o" "../src/lab06/buttons.c"
+'Finished building: ../src/lab06/buttons.c'
+' '
+'Building file: ../src/lab06/flashSequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/flashSequence.d" -MT"src/lab06/flashSequence.d" -o "src/lab06/flashSequence.o" "../src/lab06/flashSequence.c"
+'Finished building: ../src/lab06/flashSequence.c'
+' '
+'Building file: ../src/lab06/globals.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/globals.d" -MT"src/lab06/globals.d" -o "src/lab06/globals.o" "../src/lab06/globals.c"
+'Finished building: ../src/lab06/globals.c'
+' '
+'Building file: ../src/lab06/lab06test.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/lab06test.d" -MT"src/lab06/lab06test.d" -o "src/lab06/lab06test.o" "../src/lab06/lab06test.c"
+'Finished building: ../src/lab06/lab06test.c'
+' '
+'Building file: ../src/lab06/simonDisplay.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/simonDisplay.d" -MT"src/lab06/simonDisplay.d" -o "src/lab06/simonDisplay.o" "../src/lab06/simonDisplay.c"
+'Finished building: ../src/lab06/simonDisplay.c'
+' '
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:72:7: error: 'wait_for_enable' was not declared in this scope
+  case wait_for_enable:  //we can't do anything unless enabled
+       ^
+../src/lab06/verifySequence.c:97:7: error: 'wait_for_disable' was not declared in this scope
+  case wait_for_disable:  //chill here until disabled
+       ^
+../src/lab06/verifySequence.c:111:18: error: 'wait_for_enable' was not declared in this scope
+   currentState = wait_for_enable;  //We inited everything! next state
+                  ^
+../src/lab06/verifySequence.c:114:7: error: the value of 'wait_for_enable' is not usable in a constant expression
+  case wait_for_enable:  //we can't do anything unless enabled
+       ^
+../src/lab06/verifySequence.c:111:18: note: 'wait_for_enable' does not have integral or enumeration type
+   currentState = wait_for_enable;  //We inited everything! next state
+                  ^
+../src/lab06/verifySequence.c:153:18: error: 'wait_for_disable' was not declared in this scope
+   currentState = wait_for_disable;   //only one tick in this state
+                  ^
+../src/lab06/verifySequence.c:156:7: error: the value of 'wait_for_disable' is not usable in a constant expression
+  case wait_for_disable:  //chill here until disabled
+       ^
+../src/lab06/verifySequence.c:153:18: note: 'wait_for_disable' does not have integral or enumeration type
+   currentState = wait_for_disable;   //only one tick in this state
+                  ^
+../src/lab06/verifySequence.c:57:17: warning: unused variable 'sequence_length' [-Wunused-variable]
+  static int16_t sequence_length = 0;
+                 ^
+make: *** [src/lab06/verifySequence.o] Error 1
+09:20:59 **** Auto Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+'Building file: ../src/lab06/verifySequence.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab06/verifySequence.d" -MT"src/lab06/verifySequence.d" -o "src/lab06/verifySequence.o" "../src/lab06/verifySequence.c"
+../src/lab06/verifySequence.c: In function 'void verifySequence_tick()':
+../src/lab06/verifySequence.c:57:17: warning: unused variable 'sequence_length' [-Wunused-variable]
+  static int16_t sequence_length = 0;
+                 ^
+'Finished building: ../src/lab06/verifySequence.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/simon.cpp'
+'Invoking: ARM g++ compiler'
+arm-xilinx-eabi-g++ -Wall -O2 -finline-functions -g3 -I"D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj6.2\Xilinx_projects\Consolidated_330_SW" -c -fmessage-length=0 -I../../HW3_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/simon.d" -MT"src/simon.d" -o "src/simon.o" "../src/simon.cpp"
+'Finished building: ../src/simon.cpp'
+' '
+'Building target: Consolidated_330_SW.elf'
+'Invoking: ARM g++ linker'
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../HW3_bsp/ps7_cortexa9_0/lib -o "Consolidated_330_SW.elf"  ./supportFiles/Adafruit_GFX.o ./supportFiles/Adafruit_STMPE610.o ./supportFiles/Adafruit_TFTLCD.o ./supportFiles/Print.o ./supportFiles/WString.o ./supportFiles/display.o ./supportFiles/glcdfont.o ./supportFiles/globalTimer.o ./supportFiles/interrupts.o ./supportFiles/lcd.o ./supportFiles/leds.o ./supportFiles/mio.o ./supportFiles/new.o ./supportFiles/spi.o ./supportFiles/utils.o  ./src/lab06/buttonHandler.o ./src/lab06/buttons.o ./src/lab06/flashSequence.o ./src/lab06/globals.o ./src/lab06/lab06test.o ./src/lab06/simonDisplay.o ./src/lab06/verifySequence.o  ./src/main.o ./src/simon.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Consolidated_330_SW.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Consolidated_330_SW.elf  |tee "Consolidated_330_SW.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 169232	   3192	  37088	 209512	  33268	Consolidated_330_SW.elf
+'Finished building: Consolidated_330_SW.elf.size'
+' '
+09:21:06 **** Incremental Build of configuration Debug for project Consolidated_330_SW ****
+make all 
+make: Nothing to be done for `all'.

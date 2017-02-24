@@ -21,6 +21,10 @@ bool buttonHandler_release_detected = false;
 //this is the variable that stores the button the user pushed last
 uint8_t buttonHandler_last_pushed_button = 0;
 
+//Stores the current state of the state machine
+buttonHandler_st_t currentState = init_st;
+
+
 // Get the simon region numbers. See the source code for the region numbering scheme.
 uint8_t buttonHandler_getRegionNumber(){
 	return buttonHandler_last_pushed_button;
@@ -34,6 +38,7 @@ void buttonHandler_enable(){
 // Turn off the state machine. Part of the interlock.
 void buttonHandler_disable(){
 	buttonHandler_enable_flag = false;	//so we false the enable flag
+	currentState = init_st;
 }
 
 // Other state machines can call this function to see if the user has stopped touching the pad.
@@ -43,8 +48,7 @@ bool buttonHandler_releaseDetected(){
 
 // Standard tick function.
 void buttonHandler_tick(){
-	//Stores the current state of the state machine
-	static buttonHandler_st_t currentState = init_st;
+
 
 	//This is the timer to let the touch sensor cool
 	static int16_t touch_ad_timer = 0;

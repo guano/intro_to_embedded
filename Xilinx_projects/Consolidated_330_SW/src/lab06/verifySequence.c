@@ -7,36 +7,165 @@
 
 #include "verifySequence.h"
 
+//The flag that shows whether we are enabled
+bool verifySequence_enable_flag = false;
+
+//The flag that shows whether we have completed the sequence
+bool verifySequence_completed_flag = false;
+
+//The flag that shows whether the user timed out
+bool verifySequence_time_out = false;
+
+//The flag that shows whether the user failed the sequence
+bool verifySequence_user_fail = false;
+
+
 // State machine will run when enabled.
 void verifySequence_enable(){
-
+	verifySequence_enable_flag = true;
 }
 
 // This is part of the interlock. You disable the state-machine and then enable it again.
 void verifySequence_disable(){
-
+	verifySequence_enable_flag = false;
 }
 
 // Used to detect if there has been a time-out error.
 bool verifySequence_isTimeOutError(){
-
+	return verifySequence_time_out;
 }
 
 // Used to detect if the user tapped the incorrect sequence.
 bool verifySequence_isUserInputError(){
-
+	return verifySequence_user_fail;
 }
 
 // Used to detect if the verifySequence state machine has finished verifying.
 bool verifySequence_isComplete(){
-
+	return verifySequence_completed_flag;
 }
 
 // Standard tick function.
 void verifySequence_tick(){
+	//this stores the current state of our MACHINE
+	static verifySequence_st_t currentState = verifySequence_init_st;
+
+	//this stores the wait timer for wait_for_touch and touch_cooldown
+	static int16_t delay_timer = 0;
+
+	//this is the length of the sequence we are currently flashing
+	static int16_t sequence_length = 0;
+
+	//this is the index where we currently are flashing
+	static int16_t current_index = 0;
+
+
+	//first we do state functions
+	switch(currentState){
+	case verifySequence_init_st://Init everything
+		current_index = 0;	//start at the beginning; a very good place to start
+		verifySequence_completed_flag = false;
+		verifySequence_time_out = false;
+		verifySequence_user_fail = false;
+		break;
+
+	case wait_for_enable_v:		//we can't do anything unless enabled
+		//so do nothing
+		break;
+
+	case wait_for_touch:		//wait for the user to touch a button
+		delay_timer--;				//countdown the timeout timer
+		buttonHandler_tick();		//and tick the button handler so it can detect us
+		break;
+
+	case wait_for_release:		//we wait for the touch sensor to cool down
+		buttonHandler_tick();		//we will tick the button handler until it detects a release.
+		break;
+
+	case analyze_touch:			//time to register the touch
+		buttonHandler_disable();	//we need to disable/reset the buttonHandler
+		if(buttonHandler_getRegionNumber() != globals_getSequenceValue(current_index)){
+			//they pushed the wrong button! :(
+			verifySequence_user_fail = true;
+		}
+		break;
+
+	case end_verify_sequence:	//we have ended the verify sequence
+		verifySequence_completed_flag = true;	//we flag that we have finished
+		break;
+
+	case wait_for_disable_v:		//chill here until disabled
+		//so we do nothing
+		break;
+
+	default:					//error in state
+		printf("We have reached an impossible state");
+		break;
+	}
+
+
+
+	//then we do state transitions
+	switch(currentState){
+	case verifySequence_init_st://Init everything (like the screen)
+		currentState = wait_for_enable_v;		//We inited everything! next state
+		break;
+
+	case wait_for_enable_v:		//we can't do anything unless enabled
+		if(verifySequence_enable_flag){		//are we enabled?
+			currentState = wait_for_touch;	//yes! move on
+			delay_timer = VERIFYSEQUENCE_TIMEOUT_SPEED;	//start the timer for user timeout
+			buttonHandler_enable();			//let's enable the button handler now!
+		}
+		break;
+
+	case wait_for_touch:		//wait for the user to touch a button
+		if(display_isTouched()){			//They touched in time!
+			currentState = wait_for_release;//start the touch sensor cooldown
+		}
+		if(delay_timer <= 0){				//aww user timeout :(
+			currentState = end_verify_sequence;		//I guess we go to the end
+			buttonHandler_disable();				//we don't want to record button pushes anymore
+			verifySequence_time_out = true;		//record that the user timed out
+		}
+		break;
+
+	case wait_for_release:		//we wait for the user to release (button handler will tell us)
+		if(buttonHandler_releaseDetected()){	//the user let go
+			currentState = analyze_touch;		//now let's analyze her touch
+		}
+		break;
+
+	case analyze_touch:			//time to register the touch
+		//if we have are done
+		if(verifySequence_isUserInputError() 									//if the user failed
+				|| verifySequence_isTimeOutError() 								//or the user timed out
+				|| current_index >= globals_getSequenceIterationLength() - 1){	//or we are at the end of the sequence
+			currentState = end_verify_sequence;		//move on to end!
+		}else{			//the sequence is NOT over
+			currentState = wait_for_touch;			//wait for the next touch
+			current_index++;						//move on to next item in sequence
+			buttonHandler_enable();					//turn the button handler back on
+		}
+		break;
+
+	case end_verify_sequence:	//we have ended the verify sequence
+		currentState = wait_for_disable_v;			//only one tick in this state
+		break;
+
+	case wait_for_disable_v:		//chill here until disabled
+		if(!verifySequence_enable_flag){			//we are disabled
+			currentState = verifySequence_init_st;	//go back to the beginning!
+		}
+		break;
+
+	default:					//This is an error; print it
+		printf("impossible state found");
+		break;
+	}
+
+
 }
-
-
 
 
 
