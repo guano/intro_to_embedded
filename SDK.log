@@ -1121,3 +1121,73 @@ java.lang.RuntimeException: The program file specified in the launch configurati
 13:14:25 INFO  : Processor reset is completed for ps7_cortexa9_0
 13:15:58 INFO  : Processor reset is completed for ps7_cortexa9_0
 13:33:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:32:53 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj5.2/Xilinx_projects/HWTest3_hw_platform/system.bit"
+15:33:12 INFO  : init_user is completed.
+15:33:14 INFO  : ps7_init is completed.
+15:33:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:34:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:35:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:36:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:37:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:38:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:39:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:43:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:58:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:04:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:04:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:06:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:07:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:07:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:08:08 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:08:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:09:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:10:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:11:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:38:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:39:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:43:39 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+16:43:39 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:386)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:297)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:245)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+16:43:52 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj5.2/Xilinx_projects/HWTest3_hw_platform/system.bit"
+16:44:06 INFO  : init_user is completed.
+16:44:06 INFO  : ps7_init is completed.
+16:44:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:45:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:46:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:48:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:49:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:49:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:49:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:52:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:54:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:56:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:58:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:01:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:02:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:04:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:05:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:05:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:06:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:06:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:07:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:12:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:29:04 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
