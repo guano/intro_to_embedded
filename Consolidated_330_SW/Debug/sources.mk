@@ -26,5 +26,5 @@ S_UPPER_DEPS :=
 SUBDIRS := \
 supportFiles \
 src \
-src/lab03 \
+src/lab04 \
 

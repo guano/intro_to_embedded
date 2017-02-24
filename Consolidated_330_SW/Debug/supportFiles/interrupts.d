@@ -18,7 +18,7 @@ supportFiles/interrupts.d: ../supportFiles/interrupts.c \
  ../../HW3_bsp/ps7_cortexa9_0/include/xscutimer_hw.h \
  ../../HW3_bsp/ps7_cortexa9_0/include/xsysmon.h \
  ../../HW3_bsp/ps7_cortexa9_0/include/xsysmon_hw.h ../supportFiles/leds.h \
- D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj3.1\Consolidated_330_SW/supportFiles/globalTimer.h \
+ D:\Put_Your_Temp_Files_Here\Xilinx_projects\Consolidated_330_SW/supportFiles/globalTimer.h \
  ../../HW3_bsp/ps7_cortexa9_0/include/xparameters.h
 
 ../supportFiles/interrupts.h:
@@ -61,6 +61,6 @@ supportFiles/interrupts.d: ../supportFiles/interrupts.c \
 
 ../supportFiles/leds.h:
 
-D:\Put_Your_Temp_Files_Here\Xilinx_projects_proj3.1\Consolidated_330_SW/supportFiles/globalTimer.h:
+D:\Put_Your_Temp_Files_Here\Xilinx_projects\Consolidated_330_SW/supportFiles/globalTimer.h:
 
 ../../HW3_bsp/ps7_cortexa9_0/include/xparameters.h:
