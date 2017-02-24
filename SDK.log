@@ -1032,3 +1032,69 @@ java.lang.RuntimeException: The program file specified in the launch configurati
 16:31:06 INFO  : Processor reset is completed for ps7_cortexa9_0
 16:31:42 INFO  : Processor reset is completed for ps7_cortexa9_0
 16:33:22 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:46:18 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/Xilinx_projects_lab4.1/HWTest3_hw_platform/system.bit"
+14:46:42 INFO  : init_user is completed.
+14:46:42 INFO  : ps7_init is completed.
+14:46:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:49:57 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:50:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:50:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:50:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:51:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:51:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:51:27 ERROR : Port COM21 is already in use.
+14:51:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:53:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:53:27 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:53:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:54:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:04:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:04:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:05:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:05:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:05:56 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:05:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:05:58 ERROR : Port COM21 is already in use.
+15:06:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:08:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:14:26 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: The program file specified in the launch configuration does not exist
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:477)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+15:39:32 ERROR : Workspace location D:\Put_Your_Temp_Files_Here\Xilinx_projects_lab4.1 - Copy contains spaces. Please switch to a workspace without spaces in its path.
+15:40:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:41:21 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:44:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:45:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:47:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:48:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:50:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:51:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:51:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:52:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:53:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:53:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:53:27 ERROR : Port COM21 is already in use.
+15:54:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:54:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:56:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:57:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:57:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:57:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:57:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:57:59 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:58:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:58:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:59:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:59:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:59:08 ERROR : Port COM21 is already in use.
+15:59:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:00:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:02:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:14:43 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

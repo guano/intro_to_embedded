@@ -10,44 +10,26 @@
 #include "supportFiles/display.h"
 #include "supportFiles/utils.h"
 
-
-#define WIDTH 320				//width of board
-#define HEIGHT 240				//height of board
-#define HALF_HEIGHT HEIGHT/2	//half the height
-#define HALF_WIDTH WIDTH/2		//half the width
-
-#define SIZE 3		//YOU CAN CHANGE THIS IF YOU WANT - this is the size of each block. usable values 1-6
-#define CLOCK_CENTER 4			//4 characters is half the clock "##:##:##"
-#define TEXT_WIDTH_BLOCKS 6		//Each text has 6 blocks in pixels
-#define TEXT_HEIGHT_BLOCKS 7	//Each text has 7 blocks in height
-#define TEXT_WIDTH TEXT_WIDTH_BLOCKS * SIZE		//width = width in blocks * block size
-#define TEXT_HEIGHT TEXT_HEIGHT_BLOCKS * SIZE	//height= height in blocks * block size
-
-#define CENTERING_CONSTANT TEXT_WIDTH * CLOCK_CENTER	//the centering constant is half the clock * each char's width
-#define START_X HALF_WIDTH - CENTERING_CONSTANT			//the start x point is the center - centering constant
-#define START_Y HALF_HEIGHT - (TEXT_HEIGHT / 2)			//to center in y- y center- half of text height.
-
-#define TRIANGLE_VERTICAL_SPACE TEXT_HEIGHT / 2	//We want a space the size of half the text height
-
-#define HOURS_OFFSET 0
-#define MINS_OFFSET 3 * TEXT_WIDTH
-#define SECS_OFFSET 6 * TEXT_WIDTH
-
-#define SEC_MAX 59
-#define MIN_MAX 59
-#define HOUR_MAX 12
-
-#define TEXT_COLOR DISPLAY_GREEN
-
 void draw_triangles();
 void add_sec(bool add);
 void add_min(bool add);
 void add_hour(bool add);
+void calculate_where_on_board(uint16_t x, uint16_t y);
 
-uint32_t hours = 10;	//Standard clock init number
-uint32_t mins = 10;		//Standard clock init number
-uint32_t secs = 10;		//Standard clock init number
+// States for the screen touch.
+enum touch_screen_place {
+	hours_inc,  // the up arrow for hours
+	hours_dec,  // the down arrow for hours
+	mins_inc,   // up arrow for minutes
+	mins_dec,   // down arrow for minutes
+	secs_inc,   // up arrow for seconds
+	secs_dec,   // down arrow for seconds
+	nowhere   	// not touched anywhere on screen
+} currentPlace = nowhere;
 
+uint32_t hours 	= GOOD_LOOKING_CLOCK_NUMBER;	//init to something that looks GOOD
+uint32_t mins 	= GOOD_LOOKING_CLOCK_NUMBER;	//init to something that looks GOOD
+uint32_t secs 	= GOOD_LOOKING_CLOCK_NUMBER;	//init to something that looks GOOD
 uint32_t prev_hours = hours;	//Standard clock init number
 uint32_t prev_mins = mins;		//Standard clock init number
 uint32_t prev_secs = secs;		//Standard clock init number
@@ -58,13 +40,13 @@ void clockDisplay_init(){
 	display_init();							//Inits the screen
 	display_fillScreen(DISPLAY_BLACK);		//Blanks the screen
 
-	display_setTextColor(TEXT_COLOR);	//we want our text green
+	display_setTextColor(TEXT_COLOR);		//we want our text green
 	display_setTextSize(SIZE);				//sets the text size. To change, change SIZE up above
 	display_setCursor(START_X,	START_Y);	//top-left of text
 
-	char initTime[9];
-	sprintf(initTime, "%02hd:%02hd:%02hd", hours, mins, secs);
-	display_println(initTime);			//probably will go away
+	char initTime[9];						//the time string is 9 long
+	sprintf(initTime, "%02hd:%02hd:%02hd", (int) hours, (int) mins, (int) secs); //print the init time!
+	display_println(initTime);				//display the init time on the screen
 	draw_triangles();						//draws the triangles
 }
 
@@ -72,46 +54,46 @@ void clockDisplay_init(){
 /** Updates the time display with latest time. */
 void clockDisplay_updateTimeDisplay(bool forceUpdateAll){
 	char timeChange[3];				//the little string we will use for printing
-	if(hours != prev_hours || forceUpdateAll) {
+	if(hours != prev_hours || forceUpdateAll) {		//we want to print the hours
 		display_setCursor(START_X + HOURS_OFFSET,START_Y);	//we are printing the hours
 		display_setTextColor(DISPLAY_BLACK);				//the blanking color
-		sprintf(timeChange, "%02hd", prev_hours);			//print the old values to blank them
-		display_println(timeChange);						//print the old values to blank them
+		sprintf(timeChange, "%02hd", (int) prev_hours);		//print the old values to blank them
+		display_println(timeChange);						//print the old values to blank them on screen
 
-		display_setTextColor(TEXT_COLOR);				//the print color!
+		display_setTextColor(TEXT_COLOR);					//the print color!
 		display_setCursor(START_X + HOURS_OFFSET,START_Y);	//we are printing the hours
-		sprintf(timeChange, "%02hd", hours);			//print the new hours
-		display_println(timeChange);					//print the new hours
+		sprintf(timeChange, "%02hd", (int) hours);			//print the new hours
+		display_println(timeChange);						//print the new hours on the screen
 
-		prev_hours = hours;								//and reset the hours number
+		prev_hours = hours;									//and reset the hours number
 	}
 
-	if(mins != prev_mins || forceUpdateAll) {
+	if(mins != prev_mins || forceUpdateAll) {		//we want to print the minutes
 		display_setCursor(START_X + MINS_OFFSET,START_Y);	//we are printing the mins
 		display_setTextColor(DISPLAY_BLACK);				//the blanking color
-		sprintf(timeChange, "%02hd", prev_mins);			//print the old values to blank them
-		display_println(timeChange);						//print the old values to blank them
+		sprintf(timeChange, "%02hd", (int) prev_mins);		//print the old values to blank them
+		display_println(timeChange);						//print the old values to blank them on screen
 
-		display_setTextColor(TEXT_COLOR);				//the print color!
+		display_setTextColor(TEXT_COLOR);					//the print color!
 		display_setCursor(START_X + MINS_OFFSET,START_Y);	//we are printing the mins
-		sprintf(timeChange, "%02hd", mins);			//print the new mins
-		display_println(timeChange);					//print the new mins
+		sprintf(timeChange, "%02hd", (int) mins);			//print the new mins
+		display_println(timeChange);						//print the new mins on screen
 
-		prev_mins = mins;								//and reset the hours number
+		prev_mins = mins;									//and reset the hours number
 	}
 
-	if(secs != prev_secs || forceUpdateAll) {
+	if(secs != prev_secs || forceUpdateAll) {		//we want to print the seconds
 		display_setCursor(START_X + SECS_OFFSET,START_Y);	//we are printing the secs
 		display_setTextColor(DISPLAY_BLACK);				//the blanking color
-		sprintf(timeChange, "%02hd", prev_secs);			//print the old values to blank them
-		display_println(timeChange);						//print the old values to blank them
+		sprintf(timeChange, "%02hd", (int) prev_secs);		//print the old values to blank them
+		display_println(timeChange);						//print the old values to blank them on screen
 
-		display_setTextColor(TEXT_COLOR);				//the print color!
+		display_setTextColor(TEXT_COLOR);					//the print color!
 		display_setCursor(START_X + SECS_OFFSET,START_Y);	//we are printing the secs
-		sprintf(timeChange, "%02hd", secs);			//print the new secs
-		display_println(timeChange);					//print the new secs
+		sprintf(timeChange, "%02hd", (int) secs);			//print the new secs
+		display_println(timeChange);						//print the new secs on screen
 
-		prev_secs = secs;								//and reset the secs number
+		prev_secs = secs;									//and reset the secs number
 	}
 
 }
@@ -119,10 +101,60 @@ void clockDisplay_updateTimeDisplay(bool forceUpdateAll){
 
 /** Performs the increment or decrement, depending upon the touched region. */
 void clockDisplay_performIncDec(){
+	int16_t x = 0;	//where x we are touched
+	int16_t y = 0;	//where y we are touched
+	uint8_t z = 0;	//the pressure of the touch (not used)
+	display_getTouchedPoint(&x,&y,&z);	//get the touch data!
+	display_clearOldTouchData();		//and clear the touch data for future use
+	calculate_where_on_board(x,y);
 
-
+	switch(currentPlace) {	//do things depending on where we detect the touch
+	case hours_dec:		//touched in the hours down arrow
+		add_hour(0);	//decrease hours by 1
+		break;
+	case hours_inc:		//touched in the hours up arrow
+		add_hour(1);	//increase hours by 1
+		break;
+	case mins_dec:		//touched in the mins down arrow
+		add_min(0);		//decrease mins by 1
+		break;
+	case mins_inc:		//touched in the mins up arrow
+		add_min(1);		//increase mins by 1
+		break;
+	case secs_dec:		//touched in the seconds down arrow
+		add_sec(0);		//decrease secs by 1
+		break;
+	case secs_inc:		//touched in the seconds up arrow
+		add_sec(1);		//increase secs by 1
+		break;
+	case nowhere:
+	default:	//this is an error
+		printf("we are touched nowhere on the board?\n\r");		//print the error
+	}
 }
 
+/** Calculates where the coordinate is on the board and stores it in currentPlace */
+void calculate_where_on_board(uint16_t x, uint16_t y) {
+	if(x < ONE_THIRD_WIDTH) {			//in the hours domain
+		if(y > HALF_HEIGHT) {		//in the decrement domain
+			currentPlace = hours_dec;		//so we decrement the hours
+		}else {						//in the increment domain
+			currentPlace = hours_inc;		//so we increment the hours
+		}
+	} else if (x > TWO_THIRD_WIDTH) {	//in the seconds domain
+		if(y > HALF_HEIGHT) {		//in the decrement domain
+			currentPlace = secs_dec;		//so we decrement the seconds
+		}else {						//in the increment domain
+			currentPlace = secs_inc;		//so we increment the seconds
+		}
+	} else {							//in the minutes domain
+		if(y > HALF_HEIGHT) {		//in the decrement domain
+			currentPlace = mins_dec;		//so we decrement the minutes
+		}else {						//in the increment domain
+			currentPlace = mins_inc;		//so we increment the minutes
+		}
+	}
+}
 
 /** Advances the time forward by 1 second. */
 void clockDisplay_advanceTimeOneSecond(){
@@ -149,32 +181,32 @@ void clockDisplay_advanceTimeOneSecond(){
 void clockDisplay_runTest(){
 	utils_msDelay(100);//delays by milliseconds.
 
-	for(int i = 0; i < 100; i++) {
-		add_sec(1);
+	for(int i = 0; i < 100; i++) {	//100 increments is a good idea
+		add_sec(1);					//increment seconds by 1
 		utils_msDelay(50);//delays by milliseconds.
 	}
-	for(int i = 0; i < 100; i++) {
-		add_sec(0);
+	for(int i = 0; i < 100; i++) {	//100 decrements is a good idea
+		add_sec(0);					//decrement seconds by 1
 		utils_msDelay(50);//delays by milliseconds.
 	}
-	for(int i = 0; i < 100; i++) {
-		add_min(1);
+	for(int i = 0; i < 100; i++) {	//100 increments is a good idea
+		add_min(1);					//increment minutes by 1
 		utils_msDelay(50);//delays by milliseconds.
 	}
-	for(int i = 0; i < 100; i++) {
-		add_min(0);
+	for(int i = 0; i < 100; i++) {	//100 decrements is a good idea
+		add_min(0);					//decrement minutes by 1
 		utils_msDelay(50);//delays by milliseconds.
 	}
-	for(int i = 0; i < 100; i++) {
-		add_hour(1);
+	for(int i = 0; i < 100; i++) {	//100 increments is a good idea
+		add_hour(1);				//increment minutes by 1
 		utils_msDelay(50);//delays by milliseconds.
 	}
-	for(int i = 0; i < 100; i++) {
-		add_hour(0);
+	for(int i = 0; i < 100; i++) {	//100 decrements is a good idea
+		add_hour(0);				//decrement hours by 1
 		utils_msDelay(50);//delays by milliseconds.
 	}
-	for(int i = 0; i < 1000; i++) {
-		clockDisplay_advanceTimeOneSecond();
+	for(int i = 0; i < 1000; i++) {	//1000 seconds advance
+		clockDisplay_advanceTimeOneSecond();	//and advance the seconds
 		utils_msDelay(50);//delays by milliseconds.
 	}
 
@@ -185,98 +217,95 @@ void clockDisplay_runTest(){
 /** adds/subtracs one to the secs. Takes care of overflow, etc. subtracts if add is 0 */
 void add_sec(bool add){
 	if(add == 0) { 				//we subtract
-		if(secs == 0){
-			secs = SEC_MAX;
-		} else {
-			secs = secs - 1;
+		if(secs == 0){		//subtract past 0
+			secs = SEC_MAX;	//make it to the max (59)
+		} else {			//normal subtract
+			secs = secs - 1;//subtract 1
 		}
 	} else {					//we add
-		if(secs == SEC_MAX) {
-			secs = 0;
-		} else {
-			secs = secs + 1;
+		if(secs == SEC_MAX) {//add past max
+			secs = 0;		//overflow makes it 0
+		} else {			//add without overflow
+			secs = secs + 1;//add 1
 		}
 	}
-	clockDisplay_updateTimeDisplay(0);
+	clockDisplay_updateTimeDisplay(0);//gotta update the display!
 }
 
 /** adds/subtracs one to the mins. Takes care of overflow, etc. subtracts if add is 0 */
 void add_min(bool add){
 	if(add == 0){				//we subtract
-		if(mins == 0) {
-			mins = MIN_MAX;
-		} else {
-			mins = mins -1;
+		if(mins == 0) {		//subtract past 0
+			mins = MIN_MAX;	//make it to the max (59)
+		} else {			//normal subtract
+			mins = mins -1; //subtract 1
 		}
 	} else {					//we add
-		if(mins == MIN_MAX) {
-			mins = 0;
-		} else {
-			mins = mins + 1;
+		if(mins == MIN_MAX) {//add past max
+			mins = 0;		//overflow makes it 0
+		} else {			//add without overflow
+			mins = mins + 1;//add 1
 		}
 	}
-	clockDisplay_updateTimeDisplay(0);
+	clockDisplay_updateTimeDisplay(0);//gotta update the display!
 }
 
 /** adds/subtracs one to the hours. Takes care of overflow, etc. subtracts if add is 0 */
 void add_hour(bool add){
-	if(add == 0) {				//we subtract
-		if(hours == 0) {
-			hours = HOUR_MAX;
-		} else {
-			hours = hours - 1;
+	if(add == 0) {			//we subtract
+		if(hours == 0) {		//subtract past 0
+			hours = HOUR_MAX;	//make it to the max (12)
+		} else {				//normal subtract
+			hours = hours - 1;	//subtract 1
 		}
-	} else {					//we add
-		if(hours == HOUR_MAX) {
-			hours = 0;
-		} else {
-			hours = hours + 1;
+	} else {				//we add
+		if(hours == HOUR_MAX) {//add past max
+			hours = 0;		//overflow makes it 0
+		} else {			//add without overflow
+			hours = hours + 1;//add 1
 		}
 	}
-	clockDisplay_updateTimeDisplay(0);
+	clockDisplay_updateTimeDisplay(0);//gotta update the display!
 }
 
 /** Draws the up/down triangles everywhere */
 void draw_triangles() {
-#define TRIANGLE_COLOR DISPLAY_GREEN
+#define TRIANGLE_COLOR DISPLAY_GREEN	//I like this color
 
-	//make a variable for the x coordinates
-	uint16_t x = START_X;
+	uint16_t x = START_X;			//make a variable for the x coordinates, start with hours
 
-	//hours top
+	//hours top- vertices left, top, right, and the triangle color
 	display_fillTriangle(	x, 				START_Y - TRIANGLE_VERTICAL_SPACE,
 							x + TEXT_WIDTH, 	START_Y - TRIANGLE_VERTICAL_SPACE - TEXT_HEIGHT,
 							x + TEXT_WIDTH + TEXT_WIDTH , START_Y - TRIANGLE_VERTICAL_SPACE,
 			TRIANGLE_COLOR);
-	//hours bottom
+	//hours bottom- vertices left, bottom, right, and the triangle color
 	display_fillTriangle(	x, 				START_Y + TEXT_HEIGHT + TRIANGLE_VERTICAL_SPACE,
 							x + TEXT_WIDTH, 	START_Y + TRIANGLE_VERTICAL_SPACE + TEXT_HEIGHT + TEXT_HEIGHT,
 							x + TEXT_WIDTH + TEXT_WIDTH , START_Y + TEXT_HEIGHT + TRIANGLE_VERTICAL_SPACE,
 			TRIANGLE_COLOR);
 
 
-	//move to minutes
-	x = x + 3 * TEXT_WIDTH;
-	//minutes top
+	x = x + 3 * TEXT_WIDTH;			//move to minutes
+	//minutes top- vertices left, top, right, and the triangle color
 	display_fillTriangle(	x, 				START_Y - TRIANGLE_VERTICAL_SPACE,
 							x + TEXT_WIDTH, 	START_Y - TRIANGLE_VERTICAL_SPACE - TEXT_HEIGHT,
 							x + TEXT_WIDTH + TEXT_WIDTH , START_Y - TRIANGLE_VERTICAL_SPACE,
 			TRIANGLE_COLOR);
-	//minutes bottom
+	//minutes bottom- vertices left, bottom, right, and the triangle color
 	display_fillTriangle(	x, 				START_Y + TEXT_HEIGHT + TRIANGLE_VERTICAL_SPACE,
 							x + TEXT_WIDTH, 	START_Y + TRIANGLE_VERTICAL_SPACE + TEXT_HEIGHT + TEXT_HEIGHT,
 							x + TEXT_WIDTH + TEXT_WIDTH , START_Y + TEXT_HEIGHT + TRIANGLE_VERTICAL_SPACE,
 			TRIANGLE_COLOR);
 
 
-	//move to seconds
-	x = x + 3 * TEXT_WIDTH;
-	//seconds top
+	x = x + 3 * TEXT_WIDTH;			//move to seconds
+	//seconds top - vertices left, top, right, and the triangle color
 	display_fillTriangle(	x, 				START_Y - TRIANGLE_VERTICAL_SPACE,
 							x + TEXT_WIDTH, 	START_Y - TRIANGLE_VERTICAL_SPACE - TEXT_HEIGHT,
 							x + TEXT_WIDTH + TEXT_WIDTH , START_Y - TRIANGLE_VERTICAL_SPACE,
 			TRIANGLE_COLOR);
-	//seconds bottom
+	//seconds bottom- vertices left, bottom, right, and the triangle color
 	display_fillTriangle(	x, 				START_Y + TEXT_HEIGHT + TRIANGLE_VERTICAL_SPACE,
 							x + TEXT_WIDTH, 	START_Y + TRIANGLE_VERTICAL_SPACE + TEXT_HEIGHT + TEXT_HEIGHT,
 							x + TEXT_WIDTH + TEXT_WIDTH , START_Y + TEXT_HEIGHT + TRIANGLE_VERTICAL_SPACE,

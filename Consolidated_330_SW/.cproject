@@ -75,11 +75,11 @@
 						</toolChain>
 					</folderInfo>
 					<fileInfo id="xilinx.gnu.arm.exe.debug.1357725261.166390716" name="tftGpio.h" rcbsApplicability="disable" resourcePath="supportFiles/tftGpio.h" toolsToInvoke=""/>
-					<fileInfo id="xilinx.gnu.arm.exe.debug.1357725261.2008360467" name="clockMain.c" rcbsApplicability="disable" resourcePath="src/lab04/clockMain.c" toolsToInvoke="xilinx.gnu.arm.cxx.toolchain.compiler.debug.393831303.1030512823">
-						<tool id="xilinx.gnu.arm.cxx.toolchain.compiler.debug.393831303.1030512823" name="ARM g++ compiler" superClass="xilinx.gnu.arm.cxx.toolchain.compiler.debug.393831303"/>
+					<fileInfo id="xilinx.gnu.arm.exe.debug.1357725261.529849198" name="clockMain.c" rcbsApplicability="disable" resourcePath="src/lab04/clockMain.c" toolsToInvoke="xilinx.gnu.arm.cxx.toolchain.compiler.debug.393831303.1230788743">
+						<tool id="xilinx.gnu.arm.cxx.toolchain.compiler.debug.393831303.1230788743" name="ARM g++ compiler" superClass="xilinx.gnu.arm.cxx.toolchain.compiler.debug.393831303"/>
 					</fileInfo>
 					<sourceEntries>
-						<entry excluding="src/lab02|src/lab02/buttonsOLD.c|src/lab03|src/helloWorld.c|src/interruptSimpleTestMain.c|src/interruptTestMain.c|src/main.cc|supportFiles/tftGpio.h|supportFiles/tftGpio.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="src/lab04/clockMainTEST.c|src/lab02|src/lab02/buttonsOLD.c|src/lab03|src/helloWorld.c|src/interruptSimpleTestMain.c|src/interruptTestMain.c|src/main.cc|supportFiles/tftGpio.h|supportFiles/tftGpio.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
