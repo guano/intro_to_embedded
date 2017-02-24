@@ -5,6 +5,7 @@
  *      Author: tcowley0
  */
 
+
 #include "buttons.h"
 #include <stdio.h>
 #include <stdint.h>
@@ -27,7 +28,7 @@ void write_buttons_register(int32_t offset, uint32_t value) {
 int buttons_init() {
 	write_buttons_register(TRI_STATE_OFFSET, TRI_STATE_READ); //inits the buttons TRI register for reading.
 
-	if(read_buttons_gpio_register(TRI_STATE_OFFSET) == TRI_STATE_READ) {
+	if(read_buttons_gpio_register(XPAR_GPIO_PUSH_BUTTONS_BASEADDR + TRI_STATE_OFFSET) == TRI_STATE_READ) {
 		return BUTTONS_INIT_STATUS_OK;
 	} else {
 		return BUTTONS_INIT_STATUS_FAIL;
