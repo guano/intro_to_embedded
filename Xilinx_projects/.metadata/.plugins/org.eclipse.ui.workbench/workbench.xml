@@ -17,7 +17,7 @@
 <coolItem id="com.xilinx.sdk.xbash.toolbar1" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="com.xilinx.sdk.targetmanager.ui.toolbar1" itemType="typeToolBarContribution" x="84" y="22"/>
 <coolItem id="com.xilinx.sdk.sw.toolbar1" itemType="typeToolBarContribution" x="38" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="84" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
@@ -30,23 +30,33 @@
 </coolbarLayout>
 <page aggregateWorkingSetId="Aggregate for window 1430423159495" focus="true" label="Workspace - C/C++">
 <editors>
-<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@5041dea3">
-<info part="org.eclipse.ui.internal.EditorStack@5041dea3">
+<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@7d7f7675">
+<info part="org.eclipse.ui.internal.EditorStack@7d7f7675">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ticTacToeDisplay.h" partName="ticTacToeDisplay.h" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj5.3/Xilinx_projects_proj5.3/Xilinx_projects/Consolidated_330_SW/src/lab05/ticTacToeDisplay.h" title="ticTacToeDisplay.h" tooltip="Consolidated_330_SW/src/lab05/ticTacToeDisplay.h" workbook="org.eclipse.ui.internal.EditorStack@5041dea3">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab05/ticTacToeDisplay.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="838" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lab06test.c" partName="lab06test.c" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj5.3.2/Xilinx_projects_proj5.3.2/Xilinx_projects_proj5.3/Xilinx_projects/Consolidated_330_SW/src/lab06/lab06test.c" title="lab06test.c" tooltip="Consolidated_330_SW/src/lab06/lab06test.c" workbook="org.eclipse.ui.internal.EditorStack@7d7f7675">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab06/lab06test.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="205" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="ticTacToeDisplay.c" partName="ticTacToeDisplay.c" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj5.3/Xilinx_projects_proj5.3/Xilinx_projects/Consolidated_330_SW/src/lab05/ticTacToeDisplay.c" title="ticTacToeDisplay.c" tooltip="Consolidated_330_SW/src/lab05/ticTacToeDisplay.c" workbook="org.eclipse.ui.internal.EditorStack@5041dea3">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab05/ticTacToeDisplay.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4231" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="flashSequence.c" partName="flashSequence.c" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj5.3.2/Xilinx_projects_proj5.3.2/Xilinx_projects_proj5.3/Xilinx_projects/Consolidated_330_SW/src/lab06/flashSequence.c" title="flashSequence.c" tooltip="Consolidated_330_SW/src/lab06/flashSequence.c" workbook="org.eclipse.ui.internal.EditorStack@7d7f7675">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab06/flashSequence.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4577" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="flashSequence.h" partName="flashSequence.h" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj5.3.2/Xilinx_projects_proj5.3.2/Xilinx_projects_proj5.3/Xilinx_projects/Consolidated_330_SW/src/lab06/flashSequence.h" title="flashSequence.h" tooltip="Consolidated_330_SW/src/lab06/flashSequence.h" workbook="org.eclipse.ui.internal.EditorStack@7d7f7675">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab06/flashSequence.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="297" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="globals.h" partName="globals.h" path="D:/Put_Your_Temp_Files_Here/Xilinx_projects_proj5.3.2/Xilinx_projects_proj5.3.2/Xilinx_projects_proj5.3/Xilinx_projects/Consolidated_330_SW/src/lab06/globals.h" title="globals.h" tooltip="Consolidated_330_SW/src/lab06/globals.h" workbook="org.eclipse.ui.internal.EditorStack@7d7f7675">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Consolidated_330_SW/src/lab06/globals.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="276" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -94,20 +104,20 @@
 <view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
 <filters>
-<filter element=".*" isEnabled="false"/>
 <filter element="*.class" isEnabled="false"/>
 <filter element="RemoteSystemsConnections" isEnabled="true"/>
 <filter element="RemoteSystemsTempFiles" isEnabled="true"/>
+<filter element=".*" isEnabled="false"/>
 </filters>
 <expanded>
 <element path="/Consolidated_330_SW"/>
 <element path="/Consolidated_330_SW/src"/>
-<element path="/Consolidated_330_SW/src/lab04"/>
 <element path="/Consolidated_330_SW/src/lab05"/>
-<element path="/Consolidated_330_SW/supportFiles"/>
+<element path="/Consolidated_330_SW/src/lab06"/>
+<element path="/HW3_bsp"/>
 </expanded>
 <selection>
-<element path="/Consolidated_330_SW/src/lab05/ticTacToeDisplay.c"/>
+<element path="/Consolidated_330_SW/src/lab06/globals.h"/>
 </selection>
 </viewState>
 </view>
@@ -116,7 +126,8 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (2 items)"/>
+<category IMemento.internal.id="Errors (4 items)"/>
+<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="155" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="404"/>
@@ -190,23 +201,19 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.views.ResourceNavigator" style="0">
-<fastViews>
-<view id="org.eclipse.ui.views.ResourceNavigator" ratio="0.29978472"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@2dc406b3" orientation="512" selectedTabId="com.xilinx.sdk.targetmanager.ui.TargetManagementView" style="0">
-<fastViews>
-<view id="com.xilinx.sdk.targetmanager.ui.TargetManagementView" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
 <fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
 <fastViews>
 <view id="org.eclipse.ui.views.ProblemView" ratio="0.29952607"/>
 <view id="org.eclipse.ui.views.TaskList" ratio="0.29952607"/>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.18957347"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.5876777"/>
 <view id="org.eclipse.ui.views.PropertySheet" ratio="0.29952607"/>
 <view id="org.eclipse.tm.terminal.view.TerminalView" ratio="0.29952607"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@2dc406b3" orientation="512" selectedTabId="org.eclipse.ui.views.ResourceNavigator" style="0">
+<fastViews>
+<view id="com.xilinx.sdk.targetmanager.ui.TargetManagementView" ratio="0.3"/>
+<view id="org.eclipse.ui.views.ResourceNavigator" ratio="0.27771798"/>
 </fastViews>
 </fastViewBar>
 <fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@6cd21dbb" orientation="512" selectedTabId="org.eclipse.ui.views.ProgressView" style="0">
@@ -219,7 +226,6 @@
 <mainWindow>
 <info folder="true" part="topLeft">
 <folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.ui.CView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
@@ -261,6 +267,7 @@
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@2dc406b3" ratio="0.7496136" ratioLeft="485" ratioRight="162" relationship="4" relative="topLeft">
 <folder appearance="2" expanded="2">
 <page content="com.xilinx.sdk.targetmanager.ui.TargetManagementView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
@@ -328,31 +335,46 @@
 <view id="com.xilinx.sdk.logger.SdkLogView"/>
 <view id="com.xilinx.sdk.targetmanager.ui.TargetManagementView"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7494331" ratioLeft="661" ratioRight="221" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7494331" ratioLeft="661" ratioRight="221" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1855c852" ratio="0.7492625" ratioLeft="762" ratioRight="255" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="com.xilinx.sdk.targetmanager.ui.TargetManagementView" appearance="2" expanded="2">&#x0A;<page content="com.xilinx.sdk.targetmanager.ui.TargetManagementView" label="Target Connections"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1855c852" ratio="0.7492625" ratioLeft="762" ratioRight="255" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="com.xilinx.sdk.targetmanager.ui.TargetManagementView" appearance="2" expanded="2">
+<page content="com.xilinx.sdk.targetmanager.ui.TargetManagementView" label="Target Connections"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@73467b7e" ratio="0.5997732" ratioLeft="529" ratioRight="353" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1855c852">&#x0A;<folder activePageID="com.xilinx.sdk.logger.SdkLogView" appearance="2" expanded="2">&#x0A;<page content="com.xilinx.sdk.logger.SdkLogView" label="SDK Log"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@73467b7e" ratio="0.5997732" ratioLeft="529" ratioRight="353" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1855c852">
+<folder activePageID="com.xilinx.sdk.logger.SdkLogView" appearance="2" expanded="2">
+<page content="com.xilinx.sdk.logger.SdkLogView" label="SDK Log"/>
 <page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.24952741" ratioLeft="132" ratioRight="397" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1855c852">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.24952741" ratioLeft="132" ratioRight="397" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1855c852">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.tm.terminal.view.TerminalView" label="Terminal 1"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -362,7 +384,8 @@
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
 <page content="org.eclipse.tcf.TraceView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -371,17 +394,22 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.28211588" ratioLeft="224" ratioRight="570" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.6778418" ratioLeft="1294" ratioRight="615" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.cdt.dsf.debug.ui.disassembly.view" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.6778418" ratioLeft="1294" ratioRight="615" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.cdt.dsf.debug.ui.disassembly.view" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="Disassembly"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view" label="LabelNotFound"/>
 <page content="org.eclipse.tcf.ProfilerView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="441" ratioRight="441" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="441" ratioRight="441" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="com.xilinx.sdk.targetmanager.ui.XmdConsoleView" label="XMD Console"/>
 <page content="com.xilinx.sdk.targetmanager.ui.xsdb.XSDBConsoleView" label="XSDB Console"/>
@@ -389,7 +417,8 @@
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.debug.ui.SignalsView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.ModuleView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -403,158 +432,161 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab05/ticTacToeDisplay.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab05/ticTacToeDisplay.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/flashSequence.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/lab06test.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/globals.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/flashSequence.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Consolidated_330_SW/src/lab06/globals.h"/>
 </editors>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="556" y="33"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="6737" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="6135" y="33"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="6689" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="476" y="32"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="6737" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="5709" y="32"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="1338" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="639" y="33"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="1855" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="1208" y="0"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="6635" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="747" y="24"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="1984" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="1208" y="0"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="3539" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="747" y="24"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="6689" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="266" y="0"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="5919" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="696" y="28"/>
+<item historyLabel="lab06test.c" index="1">
+<position info="not_deleted" x="205" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="4771" y="0"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="6027" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="797" y="24"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="6075" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="2242" y="24"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="6135" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="850" y="63"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="533" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="972" y="63"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="607" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="927" y="63"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="533" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="700" y="0"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="607" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="1004" y="67"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="678" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="264" y="0"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="607" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="225" y="0"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="678" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="264" y="0"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="607" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="815" y="0"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="678" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="1228" y="0"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="607" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="1350" y="64"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="678" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="411" y="0"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="607" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="225" y="0"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="678" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="510" y="0"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="607" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="1508" y="66"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="678" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="510" y="0"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="607" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="1626" y="26"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="678" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="2148" y="26"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="607" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="1699" y="26"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="678" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="2187" y="26"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="607" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="1773" y="25"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="6230" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="826" y="0"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="6635" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="1848" y="21"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="7267" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="5419" y="21"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="7648" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="1881" y="20"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="7267" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="761" y="0"/>
+<item historyLabel="flashSequence.c" index="0">
+<position/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="1913" y="22"/>
+<item historyLabel="flashSequence.c" index="0">
+<position/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="5614" y="22"/>
+<item historyLabel="flashSequence.h" index="3">
+<position info="not_deleted" x="364" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="1947" y="20"/>
+<item historyLabel="flashSequence.c" index="0">
+<position/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="5810" y="20"/>
+<item historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="3317" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="1979" y="23"/>
+<item historyLabel="flashSequence.h" index="3">
+<position info="not_deleted" x="364" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="4504" y="0"/>
+<item historyLabel="globals.c" index="2">
+<position info="not_deleted" x="607" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="1979" y="23"/>
+<item historyLabel="flashSequence.h" index="3">
+<position info="not_deleted" x="364" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="4231" y="0"/>
+<item historyLabel="globals.h" index="4">
+<position info="not_deleted" x="276" y="0"/>
 </item>
-<item historyLabel="ticTacToeDisplay.h" index="0">
-<position info="not_deleted" x="838" y="0"/>
+<item historyLabel="flashSequence.h" index="3">
+<position info="not_deleted" x="297" y="0"/>
 </item>
-<item active="true" historyLabel="ticTacToeDisplay.c" index="1">
-<position info="not_deleted" x="4231" y="0"/>
+<item active="true" historyLabel="flashSequence.c" index="0">
+<position info="not_deleted" x="3317" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -582,50 +614,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ticTacToeDisplay.c" tooltip="Consolidated_330_SW/src/lab05/ticTacToeDisplay.c">
-<persistable path="/Consolidated_330_SW/src/lab05/ticTacToeDisplay.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="globals.h" tooltip="Consolidated_330_SW/src/lab06/globals.h">
+<persistable path="/Consolidated_330_SW/src/lab06/globals.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ticTacToeControl.h" tooltip="Consolidated_330_SW/src/lab05/ticTacToeControl.h">
-<persistable path="/Consolidated_330_SW/src/lab05/ticTacToeControl.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="globals.c" tooltip="Consolidated_330_SW/src/lab06/globals.c">
+<persistable path="/Consolidated_330_SW/src/lab06/globals.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ticTacToeControl.c" tooltip="Consolidated_330_SW/src/lab05/ticTacToeControl.c">
-<persistable path="/Consolidated_330_SW/src/lab05/ticTacToeControl.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="simonDisplay.c" tooltip="Consolidated_330_SW/src/lab06/simonDisplay.c">
+<persistable path="/Consolidated_330_SW/src/lab06/simonDisplay.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="clockDisplay.c" tooltip="Consolidated_330_SW/src/lab04/clockDisplay.c">
-<persistable path="/Consolidated_330_SW/src/lab04/clockDisplay.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="buttonHandler.h" tooltip="Consolidated_330_SW/src/lab06/buttonHandler.h">
+<persistable path="/Consolidated_330_SW/src/lab06/buttonHandler.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lab05timeTest.c" tooltip="Consolidated_330_SW/src/lab05/lab05timeTest.c">
-<persistable path="/Consolidated_330_SW/src/lab05/lab05timeTest.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="simonDisplay.h" tooltip="Consolidated_330_SW/src/lab06/simonDisplay.h">
+<persistable path="/Consolidated_330_SW/src/lab06/simonDisplay.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="clockMain.c" tooltip="Consolidated_330_SW/src/lab04/clockMain.c">
-<persistable path="/Consolidated_330_SW/src/lab04/clockMain.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="verifySequence.c" tooltip="Consolidated_330_SW/src/lab06/verifySequence.c">
+<persistable path="/Consolidated_330_SW/src/lab06/verifySequence.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="clockMainTEST.c" tooltip="Consolidated_330_SW/src/lab04/clockMainTEST.c">
-<persistable path="/Consolidated_330_SW/src/lab04/clockMainTEST.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="verifySequence.h" tooltip="Consolidated_330_SW/src/lab06/verifySequence.h">
+<persistable path="/Consolidated_330_SW/src/lab06/verifySequence.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="minimax.c" tooltip="Consolidated_330_SW/src/lab05/minimax.c">
-<persistable path="/Consolidated_330_SW/src/lab05/minimax.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="flashSequence.c" tooltip="Consolidated_330_SW/src/lab06/flashSequence.c">
+<persistable path="/Consolidated_330_SW/src/lab06/flashSequence.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="utils.h" tooltip="Consolidated_330_SW/supportFiles/utils.h">
-<persistable path="/Consolidated_330_SW/supportFiles/utils.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lab05FINAL.c" tooltip="Consolidated_330_SW/src/lab05/lab05FINAL.c">
-<persistable path="/Consolidated_330_SW/src/lab05/lab05FINAL.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="flashSequence.h" tooltip="Consolidated_330_SW/src/lab06/flashSequence.h">
+<persistable path="/Consolidated_330_SW/src/lab06/flashSequence.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="display.h" tooltip="Consolidated_330_SW/supportFiles/display.h">
 <persistable path="/Consolidated_330_SW/supportFiles/display.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Consolidated_330_SW/src/lab05/main.c">
-<persistable path="/Consolidated_330_SW/src/lab05/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="clockControl.c" tooltip="Consolidated_330_SW/src/lab04/clockControl.c">
+<persistable path="/Consolidated_330_SW/src/lab04/clockControl.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="minimax.h" tooltip="Consolidated_330_SW/src/lab05/minimax.h">
-<persistable path="/Consolidated_330_SW/src/lab05/minimax.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="clockDisplay.h" tooltip="Consolidated_330_SW/src/lab04/clockDisplay.h">
+<persistable path="/Consolidated_330_SW/src/lab04/clockDisplay.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="buttons.h" tooltip="Consolidated_330_SW/src/lab05/buttons.h">
-<persistable path="/Consolidated_330_SW/src/lab05/buttons.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lab06test.c" tooltip="Consolidated_330_SW/src/lab06/lab06test.c">
+<persistable path="/Consolidated_330_SW/src/lab06/lab06test.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ticTacToeDisplay.h" tooltip="Consolidated_330_SW/src/lab05/ticTacToeDisplay.h">
-<persistable path="/Consolidated_330_SW/src/lab05/ticTacToeDisplay.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="simon.h" tooltip="Consolidated_330_SW/src/simon.h">
+<persistable path="/Consolidated_330_SW/src/simon.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="buttonHandler.c" tooltip="Consolidated_330_SW/src/lab06/buttonHandler.c">
+<persistable path="/Consolidated_330_SW/src/lab06/buttonHandler.c"/>
 </file>
 </mruList>
 </workbench>
