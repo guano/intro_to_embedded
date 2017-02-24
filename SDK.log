@@ -385,3 +385,259 @@ Could not detect MDM peripheral on hardware. Please check:
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 19:49:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:01:51 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:01:51 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:01:51 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:01:51 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:01:51 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:01:51 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+ [Hsm 55-1430] Driver Name is empty
+12:01:51 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:01:51 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:01:51 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:01:51 ERROR :  [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core devcfg of version 2.01.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core dmaps of version 1.04.a not found in repositories
+ [Hsm 55-1594] Core emacps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core iicps of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core qspips of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core scugic of version 1.02.a not found in repositories
+ [Hsm 55-1594] Core uartps of version 1.03.a not found in repositories
+ [Hsm 55-1594] Core uartlite of version 2.00.a not found in repositories
+ [Hsm 55-1594] Core sysmon of version 5.02.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core tmrctr of version 2.04.a not found in repositories
+ [Hsm 55-1594] Core spi of version 3.04.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core gpio of version 3.00.a not found in repositories
+ [Hsm 55-1594] Core standalone of version 3.08.a not found in repositories
+12:01:51 WARN  :  [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+ [Hsm 55-1484] MSS file doesn't have NAME. So assuming NAME as system
+12:02:51 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/tayEE330/Xilinx_projects/HWTest3_hw_platform/system.bit"
+12:03:27 INFO  : init_user is completed.
+12:03:27 INFO  : ps7_init is completed.
+12:03:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:04:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:04:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:05:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:05:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:05:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:06:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:16:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:18:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:25:38 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:06:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:06:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:10:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:12:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:12:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:15:20 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:15:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:17:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:17:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:17:35 ERROR : Port COM25 is already in use.
+15:17:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:19:20 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/tayEE330/Xilinx_projects/HWTest3_hw_platform/system.bit"
+15:19:56 INFO  : init_user is completed.
+15:19:56 INFO  : ps7_init is completed.
+15:19:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:21:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:21:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:22:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:23:14 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:23:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:23:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:24:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:24:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:26:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:27:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:31:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:31:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:32:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:32:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:34:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:34:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:35:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:35:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:35:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:35:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:37:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:38:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:38:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:39:00 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:39:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:39:03 ERROR : Port COM25 is already in use.
+15:39:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:39:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:40:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:41:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:41:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:43:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:46:09 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:46:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:46:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:46:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:46:48 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:46:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:47:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:48:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:48:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:48:49 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/tayEE330/Xilinx_projects/HWTest3_hw_platform/system.bit"
+15:49:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:51:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:52:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:53:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:57:12 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+15:57:12 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:386)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:297)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:245)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+15:57:25 INFO  : FPGA configured successfully with bitstream "D:/Put_Your_Temp_Files_Here/tayEE330/Xilinx_projects/HWTest3_hw_platform/system.bit"
+15:57:35 INFO  : init_user is completed.
+15:57:35 INFO  : ps7_init is completed.
+15:57:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:58:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:58:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:26:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:27:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:28:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:40:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:41:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:42:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:43:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:44:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:45:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:46:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:46:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:51:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:53:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:56:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:57:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:01:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:02:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:03:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:04:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:05:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:12:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:13:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:14:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:15:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:15:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:16:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:16:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:17:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:17:22 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:17:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:17:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:18:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:18:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:19:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:20:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:22:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:23:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:57:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:57:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:10:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:18:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:19:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:22:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:23:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:23:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:23:18 INFO  : Processor reset is completed for ps7_cortexa9_0

@@ -1,31 +1,9 @@
-src/lab02/lab02.d: ../src/lab02/lab02.c \
- ../../HW3_bsp/ps7_cortexa9_0/include/xparameters.h \
- ../../HW3_bsp/ps7_cortexa9_0/include/xparameters_ps.h \
- ../../HW3_bsp/ps7_cortexa9_0/include/xil_io.h \
- ../../HW3_bsp/ps7_cortexa9_0/include/xil_types.h \
- ../../HW3_bsp/ps7_cortexa9_0/include/xpseudo_asm.h \
- ../../HW3_bsp/ps7_cortexa9_0/include/xreg_cortexa9.h \
- ../../HW3_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h \
- ../../HW3_bsp/ps7_cortexa9_0/include/xil_printf.h \
- ../../HW3_bsp/ps7_cortexa9_0/include/xparameters.h \
- J:\EE330\Xilinx_projects\Consolidated_330_SW/supportFiles/leds.h
+src/lab02/lab02.d: ../src/lab02/lab02.c ../src/lab02/switches.h \
+ ../src/lab02/buttons.h \
+ D:\Put_Your_Temp_Files_Here\tayEE330\Xilinx_projects\Consolidated_330_SW/supportFiles/display.h
 
-../../HW3_bsp/ps7_cortexa9_0/include/xparameters.h:
+../src/lab02/switches.h:
 
-../../HW3_bsp/ps7_cortexa9_0/include/xparameters_ps.h:
+../src/lab02/buttons.h:
 
-../../HW3_bsp/ps7_cortexa9_0/include/xil_io.h:
-
-../../HW3_bsp/ps7_cortexa9_0/include/xil_types.h:
-
-../../HW3_bsp/ps7_cortexa9_0/include/xpseudo_asm.h:
-
-../../HW3_bsp/ps7_cortexa9_0/include/xreg_cortexa9.h:
-
-../../HW3_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h:
-
-../../HW3_bsp/ps7_cortexa9_0/include/xil_printf.h:
-
-../../HW3_bsp/ps7_cortexa9_0/include/xparameters.h:
-
-J:\EE330\Xilinx_projects\Consolidated_330_SW/supportFiles/leds.h:
+D:\Put_Your_Temp_Files_Here\tayEE330\Xilinx_projects\Consolidated_330_SW/supportFiles/display.h:

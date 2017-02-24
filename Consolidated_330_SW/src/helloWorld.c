@@ -4,15 +4,22 @@
 #include "supportFiles/display.h"
 //commented out because we don't want to run this anymore.
 //int main() {
-int helloWorld(){
+int main(){
 	display_init();  // Must init all of the software and underlying hardware for LCD.
 	display_fillScreen(DISPLAY_BLACK);  // Blank the screen.
 	display_setCursor(0, 0);            // The upper left of the LCD screen.
 	display_setTextColor(DISPLAY_RED);  // Make the text red.
 	display_setTextSize(2);             // Make the text a little larger.
 	//display_println("hello world (on the LCD)!");    // This actually prints the string to the LCD.
-	printf("hello world!\n\r");  // This prints on the console.
 
+	for(int i = 0; i<100; i++){
+		//******************
+		//******************
+		//BAUD RATE MUST BE 115200
+		//******************
+		//******************
+	printf("hello world!%d\n\r", i);  // This prints on the console.
+	}
 
 
 	display_setRotation(0);
