@@ -1,8 +1,7 @@
-src/lab02/switches.d: ../src/lab02/switches.c \
+src/lab03/intervalTimer.d: ../src/lab03/intervalTimer.c \
+ ../src/lab03/intervalTimer.h \
  ../../HW3_bsp/ps7_cortexa9_0/include/xparameters.h \
  ../../HW3_bsp/ps7_cortexa9_0/include/xparameters_ps.h \
- ../src/lab02/switches.h \
- D:\Put_Your_Temp_Files_Here\tayEE330\Xilinx_projects\Consolidated_330_SW/supportFiles/leds.h \
  ../../HW3_bsp/ps7_cortexa9_0/include/xil_io.h \
  ../../HW3_bsp/ps7_cortexa9_0/include/xil_types.h \
  ../../HW3_bsp/ps7_cortexa9_0/include/xpseudo_asm.h \
@@ -11,13 +10,11 @@ src/lab02/switches.d: ../src/lab02/switches.c \
  ../../HW3_bsp/ps7_cortexa9_0/include/xil_printf.h \
  ../../HW3_bsp/ps7_cortexa9_0/include/xparameters.h
 
+../src/lab03/intervalTimer.h:
+
 ../../HW3_bsp/ps7_cortexa9_0/include/xparameters.h:
 
 ../../HW3_bsp/ps7_cortexa9_0/include/xparameters_ps.h:
-
-../src/lab02/switches.h:
-
-D:\Put_Your_Temp_Files_Here\tayEE330\Xilinx_projects\Consolidated_330_SW/supportFiles/leds.h:
 
 ../../HW3_bsp/ps7_cortexa9_0/include/xil_io.h:
 

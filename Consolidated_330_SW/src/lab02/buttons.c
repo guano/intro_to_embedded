@@ -57,7 +57,7 @@ void buttons_runTest() {
 	int finish = 0;
 	while(!finish) {	//run until finished
 		temp = buttons_read();			//read the buttons as fast as possible
-		printf("a");			//this needs to be here to work I DON"T KNOW WHY THOUGH
+		printf("a\n\r");			//this needs to be here to work I DON"T KNOW WHY THOUGH
 		if(temp != buttons_value) {		//we have recorded new button values!
 			buttons_value = temp;		//update new current buttons value
 

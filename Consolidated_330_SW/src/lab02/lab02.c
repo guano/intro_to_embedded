@@ -8,7 +8,7 @@
 #include "supportFiles/display.h"	//to output to the screen
 
 int main() {
-	printf("hello world!\n");
+	printf("hello world!\n\r");
 
 	buttons_runTest();
 	switches_runTest();
